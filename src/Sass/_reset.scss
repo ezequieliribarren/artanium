@@ -1,0 +1,98 @@
+// RESETS
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+
+
+    h1 {}
+
+    h2 {
+        font-family: titilium-bold;
+        font-size: 3.6rem;
+        color: #37A2CE;
+    }
+
+    h3 {
+        font-family: titilium;
+        font-size: 2.4rem;
+    }
+
+    h4 {
+        font-family: titilium;
+        font-size: 2rem;
+        color: white;
+    }
+
+    h5 {
+        font-family: titilium;
+        font-size: 1.8rem;
+
+
+    }
+
+    p {
+        font-family: titilium;
+        font-size: 1.6rem;
+    }
+
+    a {
+        font-family: titilium;
+        font-size: 1.8rem;
+        text-decoration: none;
+    }
+
+    li {
+        font-size: 1.8rem;
+        margin: 0 3rem 0 3rem;
+        list-style: none;
+    }
+
+    button {
+        font-family: titilium;
+        font-size: 2rem;
+        color: #37A2CE;
+        width: 20rem;
+        height: 4rem;
+        border-radius: 40px;
+        border: 1.5px solid var(--celeste-artanium, #37A2CE);
+        background: rgba(255, 255, 255, 0.00);
+    }
+
+    .button-celeste, .button-celeste-blank{
+        background-color: #37A2CE;
+        color: white;
+    }
+
+    .button-celeste-blank{
+        border: white solid 1px;
+    }
+
+}
+
+.margin-title{
+    margin-top: 6rem;
+    margin-bottom: 3rem;
+}
+
+
+
+// FONTS
+
+@font-face {
+    font-family: "titilium";
+    src: url(/public/fonts/TitilliumWeb-Regular.ttf);
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "titilium-bold";
+    src: url(/public/fonts/TitilliumWeb-Bold.ttf);
+    font-display: swap;
+}
