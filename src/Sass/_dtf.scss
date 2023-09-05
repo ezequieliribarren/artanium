@@ -1,0 +1,41 @@
+// DTF
+
+#dtf-products{
+    h3{
+        text-align: left !important;
+    }
+    h4{
+        color: #37A2CE;
+    }
+
+    .dtf-columns{
+        display: flex;
+        align-items: center;
+.col{
+   margin-top: 2rem;
+        h3{
+            display: flex;
+            justify-content: center;
+            margin-left: 10rem;
+        } 
+}
+    }
+
+    .title-line{
+        h4{
+            width: 45rem;
+        }
+        display: flex;
+        align-items: center;
+        width: 100%;
+    }
+
+    .ul-azul{
+        background-color: #B5DBEC;
+        border-top-left-radius: 30px;
+        border-bottom-left-radius: 30px;
+        li{
+            color: black;
+        }
+    }
+}

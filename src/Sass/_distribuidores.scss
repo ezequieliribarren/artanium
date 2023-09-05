@@ -25,28 +25,48 @@
         }
 
         p {
-            padding: 0 10rem;
+            padding: 0 2rem;
             color: white;
         }
 
         background-color: #37A2CE;
-.button-forma-parte{
-    display: flex;
-    justify-content: center;
-}
+
+        .button-forma-parte {
+            display: flex;
+            justify-content: center;
+        }
+
         .redes-distribuidores {
             display: flex;
             justify-content: center;
+            padding-bottom: 2rem;
 
         }
-            button {
-                height: 5rem;
-                margin: 2rem 0;
-            }
 
-            a {
-                margin: 0 1.5rem;
-            }
+        button {
+            height: 5rem;
+            margin: 2rem 0;
+        }
+
+        a {
+            margin: 0 1.5rem;
+        }
     }
 
+    .distribuidores-logos {
+        margin-bottom: 5rem;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+
+        .col-sm-6,
+        .col-md-4 {
+            display: flex;
+            justify-content: center;
+        }
+
+        img {
+            margin: 2rem;
+        }
+    }
 }

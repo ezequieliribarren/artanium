@@ -1,0 +1,93 @@
+#contacto {
+    margin-bottom: 4rem;
+    .contacto {
+        margin-top: 5rem;
+
+        .img-contacto {
+            display: flex;
+            justify-content: center;
+
+            img {
+                width: 70rem;
+            }
+        }
+    }
+
+
+
+    h3 {
+        font-family: titilium-bold;
+        color: #37A2CE;
+        margin-top: 4rem;
+        margin-bottom: 2rem;
+    }
+
+    .formulario {
+
+        input,
+        select {
+            border-radius: 50px;
+            background: #EDF6FB;
+            height: 5.4rem;
+            width: 70rem;
+            margin: 0.5rem 0;
+            font-size: 1.4rem;
+            border: none;
+        }
+
+        select {
+            color: gray;
+            padding-left: 10px;
+            border: none;
+        }
+
+        input::placeholder,
+        textarea::placeholder {
+            padding-left: 10px;
+            font-size: 1.4rem;
+        }
+
+        textarea::placeholder {
+            padding-top: 10px;
+        }
+
+        textarea {
+            background: #EDF6FB;
+            width: 70rem;
+            border-radius: 20px;
+            height: 20rem;
+            border: none;
+        }
+
+
+        label {
+            color: #37A2CE;
+            font-family: titilium-bold;
+            font-size: 1.8rem;
+
+        }
+
+        button {
+            margin-top: 2rem;
+        }
+
+        .section-form {
+            display: flex;
+            margin: 2rem 0;
+        }
+
+        .label-form {
+            display: flex;
+            flex-direction: column;
+
+            input {
+                width: 34rem;
+            }
+
+            .margin-input {
+                margin-right: 2rem;
+            }
+
+        }
+    }
+}

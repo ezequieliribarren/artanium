@@ -1,0 +1,176 @@
+// PRODUCTOS SUBLIMACION
+#tintas-sublimacion,
+#papeles-sublimacion,
+#subli-protector,
+#subli-plotter,
+#dtf-products {
+    margin-top: 8rem;
+
+    .detail {
+        padding-left: 7%;
+
+        h2 {
+            font-size: 3.4rem;
+            color: black;
+        }
+
+        h3 {
+            margin-bottom: 2rem;
+            font-size: 2rem;
+            color: #37A2CE;
+        }
+    }
+
+    .description {
+        padding-right: 7%;
+        width: 100% !important;
+        display: flex;
+        align-items: center;
+        background-color: #B5DBEC;
+        height: 146px;
+        border-top-left-radius: 30px;
+        border-bottom-left-radius: 30px;
+
+
+        .caracteristicas {
+            display: flex;
+            align-items: center;
+
+            li {
+                margin: 0 1.8rem;
+            }
+        }
+    }
+
+    .icons {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        justify-content: center;
+        margin-top: 4rem;
+
+        ul {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin: 3rem;
+
+            li {
+                display: flex;
+                align-items: center;
+            }
+
+            h4 {
+                color: #37A2CE;
+                font-size: 1.8rem;
+                margin-left: 1rem;
+            }
+        }
+    }
+
+    .products {
+        margin-top: 3rem;
+        padding-left: 5%;
+
+        .right {
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+            align-items: center;
+        }
+
+
+        .subli-products-subtitles {
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+
+            h4 {
+                color: black;
+                font-size: 1.4rem;
+                margin: 0 1rem;
+            }
+
+            .buje {
+                margin-left: 1rem;
+            }
+
+            .subtitulo1 {
+                color: #37A2CE;
+                font-family: titilium-bold;
+            }
+
+        }
+
+        h3 {
+            font-family: titilium-bold;
+            text-align: center;
+            margin: 0;
+            font-size: 3.2rem;
+        }
+
+
+
+        .ico-h4 {
+            margin-right: 2rem;
+        }
+
+        li {
+            color: #37A2CE;
+            font-size: 1.8rem;
+        }
+
+        // PAPELES - PLOTTER
+        .ul-subli, .ul-azul {
+            ul {
+                display: flex;
+
+                div {
+                    margin: 1.5rem 0;
+                }
+
+            }
+
+            .subli-a {
+                height: 4.5rem;
+                display: flex;
+                align-items: center;
+            }
+
+            .subli-b {
+                height: 9rem;
+                margin-bottom: 3rem;
+            }
+
+        }
+
+        .subli-ejemplos {
+            display: flex;
+            justify-content: end;
+            margin-top: 3rem !important;
+            margin-bottom: 4rem;
+
+            li {
+                margin: 0 1rem;
+            }
+        }
+
+    }
+}
+
+// PLOTTER
+.plotter-banner {
+    display: flex;
+    justify-content: end;
+}
+
+// LINE
+.line {
+    height: 2px;
+    width: 100%;
+    background: #37A2CE;
+
+}
+
+
+

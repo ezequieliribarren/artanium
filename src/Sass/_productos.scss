@@ -1,6 +1,7 @@
 .cards-products {
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
 
     .card-products {
         border-radius: 3.6rem;
@@ -9,9 +10,13 @@
         flex-direction: column;
         align-items: center;
         width: 31rem;
-        margin: 0 1rem;
+        margin: 1.5rem;
 
-        p{
+        h3{
+            margin-top: 1rem;
+        }
+
+        p {
             font-size: 1.4rem;
         }
 
@@ -20,4 +25,19 @@
         }
 
     }
+
+    .img-card {
+        margin-top: 2rem;
+    }
+
+  .card-products:hover{
+        transform: scale(1.04);
+    }
 }
+
+    .card-top {
+        display: flex;
+        align-items: center;
+        height: 30rem;
+    }  
+

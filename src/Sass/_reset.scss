@@ -65,23 +65,30 @@ html {
         background: rgba(255, 255, 255, 0.00);
     }
 
-    .button-celeste, .button-celeste-blank{
+    .button-celeste,
+    .button-celeste-blank {
         background-color: #37A2CE;
         color: white;
     }
 
-    .button-celeste-blank{
+    .button-celeste-blank {
         border: white solid 1px;
     }
 
 }
 
-.margin-title{
+.margin-title {
     margin-top: 6rem;
     margin-bottom: 3rem;
 }
 
+.p-bold {
+    font-family: titilium-bold;
+}
 
+.text-center {
+    text-align: center;
+}
 
 // FONTS
 
@@ -95,4 +102,82 @@ html {
     font-family: "titilium-bold";
     src: url(/public/fonts/TitilliumWeb-Bold.ttf);
     font-display: swap;
+}
+
+
+//  CALL TO ACTION - CALL COMUNIDAD - REDES
+
+.call-action {
+    height: 224px;
+    background-color: #EDF6FB;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    border-bottom: solid 4px #37A2CE;
+
+    p {
+        margin: 2rem 0;
+    }
+
+    button {
+        margin-top: 3rem;
+    }
+
+}
+
+.call-comunidad {
+    height: 350px;
+}
+
+.redes {
+    margin-top: 2rem;
+
+    a {
+        margin: 0 2rem;
+    }
+}
+
+// SEPARADOR
+.separador {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    padding-left: 7%;
+    margin-top: 6rem !important;
+    margin-bottom: 6rem;
+
+    h2 {
+        font-size: 3.3rem;
+    }
+
+    .line {
+        height: 2px;
+        width: 100%;
+        background: #37A2CE;
+
+    }
+
+}
+
+// BUTTONS
+
+.buttons, .buttons-orange {
+    height: 10rem;
+    display: flex;
+    align-items: center;
+    background-color: #EF5B5B;
+
+
+    button {
+        border-color: white;
+        color: white;
+        margin: 0 1.5rem;
+    }
+}
+
+.buttons-orange{
+    background-color: #FF7B00;
 }

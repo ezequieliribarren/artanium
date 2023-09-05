@@ -1,6 +1,13 @@
+// Home
 @use './sass/reset';
 @use './sass/navbar';
+@use './sass/header';
 @use './sass/productos';
 @use './sass/nosotros';
 @use './sass/distribuidores';
+@use './sass/contacto';
 @use './sass/footer';
+
+// Routes
+@use './sass/subli';
+@use './sass/dtf';
