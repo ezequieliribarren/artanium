@@ -1,9 +1,15 @@
-// PRODUCTOS SUBLIMACION
+// PRODUCTOS
 #tintas-sublimacion,
 #papeles-sublimacion,
 #subli-protector,
 #subli-plotter,
-#dtf-products {
+#dtf-products,
+#transfer-products,
+#plotter-products,
+.top-products,
+#fotografico-magnetico,
+#fotografico-autoadhesivo,
+#fotografico-resinado {
     margin-top: 8rem;
 
     .detail {
@@ -80,7 +86,7 @@
         }
 
 
-        .subli-products-subtitles {
+        .products-subtitles {
             display: flex;
             align-items: center;
             justify-content: space-around;
@@ -121,7 +127,7 @@
         }
 
         // PAPELES - PLOTTER
-        .ul-subli, .ul-azul {
+        .ul-products, .ul-azul {
             ul {
                 display: flex;
 
@@ -131,28 +137,17 @@
 
             }
 
-            .subli-a {
+            .products-a {
                 height: 4.5rem;
                 display: flex;
                 align-items: center;
             }
 
-            .subli-b {
+            .products-b {
                 height: 9rem;
                 margin-bottom: 3rem;
             }
 
-        }
-
-        .subli-ejemplos {
-            display: flex;
-            justify-content: end;
-            margin-top: 3rem !important;
-            margin-bottom: 4rem;
-
-            li {
-                margin: 0 1rem;
-            }
         }
 
     }
@@ -172,5 +167,15 @@
 
 }
 
+// EJEMPLOS
+.products-ejemplos {
+    display: flex;
+    justify-content: end;
+    margin-top: 3rem !important;
+    margin-bottom: 4rem;
 
+    li {
+        margin: 0 1rem;
+    }
+}
 

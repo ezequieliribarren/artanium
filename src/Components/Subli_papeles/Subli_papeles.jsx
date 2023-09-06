@@ -1,6 +1,7 @@
 import React from 'react'
 import { papeles } from '../../js/subli';
 import Separador from '../Separador/Separador';
+import Ejemplos from '../Ejemplos/Ejemplos';
 
 const Subli_papeles = () => {
   return (
@@ -28,30 +29,20 @@ const Subli_papeles = () => {
               <img src={papel.img} alt="Papeles" />
             </div>
             <div className='col'>
-              <div className='subli-products-subtitles'>
+              <div className='products-subtitles'>
                 <span className='ico-h4'><img src={papel.imgtop} alt="Papeles" /></span>{papel.subtitulo1}<h4>{papel.subtitulo}</h4>{papel.subtitulo2}
               </div>
               <div className="line"></div>
-              <div className="ul-subli">
+              <div className="ul-products">
                 <ul>
-                  <li> <div className='subli-a'><strong>{papel.a1}</strong></div> <div className='subli-b'>{papel.b1}</div> <div><img src={papel.c1} alt="" /></div>  </li>
-                  <li> <div className='subli-a'><strong>{papel.a2}</strong></div> <div className='subli-b'>{papel.b2}</div> <div><img src={papel.c2} alt="" /></div>  </li>
-                  <li> <div className='subli-a'><strong>{papel.a3}</strong></div> <div className='subli-b'>{papel.b3}</div> <div><img src={papel.c3} alt="" /></div>  </li>
+                  <li> <div className='products-a'><strong>{papel.a1}</strong></div> <div className='products-b'>{papel.b1}</div> <div><img src={papel.c1} alt="" /></div>  </li>
+                  <li> <div className='products-a'><strong>{papel.a2}</strong></div> <div className='products-b'>{papel.b2}</div> <div><img src={papel.c2} alt="" /></div>  </li>
+                  <li> <div className='products-a'><strong>{papel.a3}</strong></div> <div className='products-b'>{papel.b3}</div> <div><img src={papel.c3} alt="" /></div>  </li>
                 </ul>
               </div>
               <div className="line"></div>
-
             </div>
-            <div className="row">
-              <ul className='subli-ejemplos'>
-                <li>Ideales para:</li>
-                <li><img src={papel.d1} alt="Ejemplos" /></li>
-                <li><img src={papel.d2} alt="Ejemplos" /></li>
-                <li><img src={papel.d3} alt="Ejemplos" /></li>
-                <li><img src={papel.d4} alt="Ejemplos" /></li>
-                <li><img src={papel.d5} alt="Ejemplos" /></li>
-              </ul>
-            </div>
+            <Ejemplos img1={papel.d1} img2={papel.d2} img3={papel.d3} img4={papel.d4} img5={papel.d5} />
           </div>
 
 

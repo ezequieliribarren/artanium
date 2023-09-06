@@ -5,6 +5,8 @@ import './index.scss'
 import Root from './Routes/Root';
 import Subli from './Routes/Subli';
 import Dtf from './Routes/Dtf';
+import Transfer from './Routes/Transfer';
+import Fotografico from './Routes/Fotografico';
 
 const router = createHashRouter([
   {
@@ -18,6 +20,14 @@ const router = createHashRouter([
   {
     path: "/dtf",
     element: <Dtf/>
+  },
+  {
+    path: "/transfer",
+    element: <Transfer/>
+  },
+  {
+    path: "/fotografico",
+    element: <Fotografico/>
   },
 ])
 
