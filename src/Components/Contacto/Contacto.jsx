@@ -6,7 +6,9 @@ const Contacto = () => {
             <div className=" container-fluid contacto">
                 <div className="row">
                     <div className="col img-contacto">
-                        <img src="images/contacto/contacto.png" alt="Contacto" />
+                        <div clasName="">
+                             <img className='img-fluid' src="images/contacto/contacto.png" alt="Contacto" /> 
+                        </div>
                     </div>
                     <div className="col">
                         <form className='formulario' action="">

@@ -54,26 +54,6 @@ html {
         list-style: none;
     }
 
-    button {
-        font-family: titilium;
-        font-size: 2rem;
-        color: #37A2CE;
-        width: 20rem;
-        height: 4rem;
-        border-radius: 40px;
-        border: 1.5px solid var(--celeste-artanium, #37A2CE);
-        background: rgba(255, 255, 255, 0.00);
-    }
-
-    .button-celeste,
-    .button-celeste-blank {
-        background-color: #37A2CE;
-        color: white;
-    }
-
-    .button-celeste-blank {
-        border: white solid 1px;
-    }
 
 }
 
@@ -120,88 +100,29 @@ html {
 }
 
 
-//  CALL TO ACTION - CALL COMUNIDAD - REDES
+@media (max-width : 768px) {
 
-.call-action {
-    height: 224px;
-    background-color: #EDF6FB;
-    width: 100%;
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    justify-content: center;
-    border-bottom: solid 4px #37A2CE;
+        h2{
+    font-size: 3.2rem !important; 
+    text-align: center;
+}
+h3{
+    font-size: 2rem !important;
+}
 
-    p {
-        margin: 2rem 0;
-    }
-
-    button {
-        margin-top: 3rem;
-    }
+.none-cel{
+    display: none;
+}
 
 }
 
-.call-comunidad {
-    padding-top: 4rem;
-    height: 400px;
-}
+@media (max-width : 475px) {
+    h2{
+        font-size: 2.8rem !important; 
+    }
 
-.redes {
-    margin-top: 2rem;
-
-    a {
-        margin: 0 2rem;
+    h3{
+        font-size: 1.8rem !important;
     }
 }
 
-// SEPARADOR
-.separador {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 100%;
-    padding-left: 7%;
-    margin-top: 6rem !important;
-    margin-bottom: 6rem;
-
-    h2 {
-        font-size: 3.3rem;
-    }
-
-    .line {
-        height: 2px;
-        width: 100%;
-        background: #37A2CE;
-
-    }
-
-}
-
-// BUTTONS
-
-.buttons, .buttons-orange, .buttons-pink, .buttons-blue {
-    height: 10rem;
-    display: flex;
-    align-items: center;
-    background-color: #EF5B5B;
-
-
-    button {
-        border-color: white;
-        color: white;
-        margin: 0 1.5rem;
-    }
-}
-
-.buttons-orange{
-    background-color: #FF7B00;
-}
-
-.buttons-pink{
-    background-color: #E12B81;
-}
-
-.buttons-blue{
-    background-color: #0066B3;
-}

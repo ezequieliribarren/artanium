@@ -34,6 +34,7 @@ export const papeles = [
         d3: "/images/subli/papeles/d3.png",
         d4: "/images/subli/papeles/d4.png",
         d5: "/images/subli/papeles/d5.png",
+        clase: "col-lg-6 img-left",
 
     },
     {
@@ -56,6 +57,7 @@ export const papeles = [
         d3: "/images/subli/papeles/d3.1.png",
         d4: "/images/subli/papeles/d4.1.png",
         d5: "/images/subli/papeles/d5.1.png",
+        clase: "col-lg-6 img-left",
 
     },
     {
@@ -73,7 +75,7 @@ export const papeles = [
         ),
         a1: "Alta descarga de tinta",
         a2: "Impresión de plenos",
-        a3: "Para impresora A4 y A3",
+        a3: "Impresora A4/A3",
         b1: "logrando una óptima definición en tus trabajos de sublimación.",
         b2: "soporta grandes cargas de tinta, permite reproducir negros profundos y colores vivos.",
         b3: "Los tamaños del rollo son compatibles con ambos formatos de impresoras.",
@@ -85,6 +87,7 @@ export const papeles = [
         d3: "/images/subli/papeles/d3.png",
         d4: "/images/subli/papeles/d4.png",
         d5: "/images/subli/papeles/d5.png",
+        clase: "col-lg-6 img-left1",
 
     },
     {
@@ -118,6 +121,7 @@ export const papeles = [
         d3: "/images/subli/papeles/d3.png",
         d4: "/images/subli/papeles/d4.png",
         d5: "/images/subli/papeles/d5.png",
+        clase: "col-lg-6 img-left1",
 
     },
 ]
@@ -148,6 +152,7 @@ export const plotters = [
         d3: "/images/subli/papeles/d3.png",
         d4: "/images/subli/papeles/d4.png",
         d5: "/images/subli/papeles/d5.png",
+        clase: "col-lg-6 img-left1",
 
     },
     {
@@ -175,6 +180,7 @@ export const plotters = [
         d3: "/images/subli/papeles/d3.1.png",
         d4: "/images/subli/papeles/d4.1.png",
         d5: "/images/subli/papeles/d5.1.png",
+        clase: "col-lg-6 img-left1",
 
     },
     {
@@ -202,6 +208,7 @@ export const plotters = [
         d3: "/images/subli/papeles/d3.png",
         d4: "/images/subli/papeles/d4.png",
         d5: "/images/subli/papeles/d5.png",
+        clase: "col-lg-6 img-left1",
 
     },
     {
@@ -234,6 +241,7 @@ export const plotters = [
         d3: "/images/subli/papeles/d3.png",
         d4: "/images/subli/papeles/d4.png",
         d5: "/images/subli/papeles/d5.png",
+        clase: "col-lg-6 img-left1",
 
     },
 ]

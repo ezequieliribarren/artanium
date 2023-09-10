@@ -7,9 +7,9 @@ const Productos = () => {
     return (
       <div>
         <h2 className='margin-title'>Nuestros Productos</h2>
-        <div className='container cards-products'>
+        <div className='row cards-products'>
          {products.map((product) => (
-            <Card className='card-products' key={product.id} sx={{ maxWidth: 345 }}>
+            <Card className='card-products col-4 col-lg-6 col-sm-12' key={product.id} sx={{ maxWidth: 345 }}>
               <h3>{product.titulo}</h3>
               <div className='card-top'>
                  <img className='img-card' src={product.img} alt="Producto" />

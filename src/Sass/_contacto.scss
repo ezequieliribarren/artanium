@@ -1,14 +1,17 @@
 #contacto {
     margin-bottom: 4rem;
+
     .contacto {
         margin-top: 5rem;
 
         .img-contacto {
             display: flex;
             justify-content: center;
+            align-items: center;
+            width: 40rem !important;
 
             img {
-                width: 70rem;
+                width: 100% !important;
             }
         }
     }
@@ -88,6 +91,20 @@
                 margin-right: 2rem;
             }
 
+        }
+    }
+}
+
+@media (max-width: 455px) {}
+
+@media (max-width: 455px) {
+
+    .img-contacto {
+        display: flex;
+        justify-content: center;
+
+        img {
+            display: none;
         }
     }
 }

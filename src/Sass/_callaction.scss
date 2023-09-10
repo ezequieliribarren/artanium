@@ -1,0 +1,35 @@
+//  CALL TO ACTION - CALL COMUNIDAD - REDES
+
+.call-action {
+    height: 224px;
+    background-color: #EDF6FB;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    border-bottom: solid 4px #37A2CE;
+
+    p {
+        margin: 2rem 0;
+    }
+
+    button {
+        margin-top: 3rem;
+    }
+
+}
+
+.call-comunidad {
+    padding: 4rem 0;
+    height: auto;
+}
+
+.redes {
+    margin-top: 2rem;
+
+    a {
+        margin: 0 2rem;
+    }
+}
+

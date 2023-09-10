@@ -1,0 +1,68 @@
+// BUTTONS
+html {
+    button {
+        font-family: titilium;
+        font-size: 2rem;
+        color: #37A2CE;
+        width: 20rem;
+        height: 4rem;
+        border-radius: 40px;
+        border: 1.5px solid var(--celeste-artanium, #37A2CE);
+        background: rgba(255, 255, 255, 0.00);
+    }
+
+    .button-celeste,
+    .button-celeste-blank {
+        background-color: #37A2CE;
+        color: white;
+    }
+
+    .button-celeste-blank {
+        border: white solid 1px;
+    }
+
+    .buttons,
+    .buttons-orange,
+    .buttons-pink,
+    .buttons-blue {
+        height: 10rem;
+        display: flex;
+        align-items: center;
+        background-color: #EF5B5B;
+
+
+        button {
+            border-color: white;
+            color: white;
+            margin: 0 1.5rem;
+        }
+    }
+
+    .buttons-orange {
+        background-color: #FF7B00;
+    }
+
+    .buttons-pink {
+        background-color: #E12B81;
+    }
+
+    .buttons-blue {
+        background-color: #0066B3;
+    }
+}
+
+
+
+
+
+@media (max-width : 510px) {
+    html {
+        button {
+            font-size: 1.6rem;
+            width: 15rem;
+            height: 3rem;
+        }
+    }
+
+
+}

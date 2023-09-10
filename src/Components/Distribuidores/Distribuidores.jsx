@@ -15,7 +15,7 @@ const Distribuidores = () => {
         <div className="col-md-4 col-sm-6"><img src="/images/distribuidores/img1.png" alt="" /></div>
     </div>
         <div className="row action-distribuidores">
-          <div>
+          <div className='buttons-distribuidores'>
             <button className='button-celeste'>Ser Distribuidor</button>
             <button>Donde Comprar</button>
           </div>
