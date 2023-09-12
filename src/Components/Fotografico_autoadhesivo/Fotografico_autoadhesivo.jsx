@@ -6,12 +6,12 @@ const Fotografico_autoadhesivo = () => {
   return (
     <section id='fotografico-autoadhesivo'>
 
-      <TopProducts title="Papel Fotográfico Autoadhesivo" subtitle="Alta definición." p="Nuestros papeles autoadhesivos con calidad fotográfica vienen en dos terminaciones superficiales y varios formatos." li3={<li><strong>Secado<br />Rápido.</strong></li>} li4={<li><strong>Resistente<br />al Agua.</strong></li>} li1={<li><strong>Alta <br />Resolución.</strong></li>} clase1="col detail" clase2="col description" />
+      <TopProducts title="Papel Fotográfico Autoadhesivo" subtitle="Alta definición." p="Nuestros papeles autoadhesivos con calidad fotográfica vienen en dos terminaciones superficiales y varios formatos." li3={<li><strong>Secado<br />Rápido.</strong></li>} li4={<li><strong>Resistente<br />al Agua.</strong></li>} li1={<li><strong>Alta <br />Resolución.</strong></li>} clase1="col-lg-6 detail" clase2="col-lg-6 description" />
 
       {autoadhesivos.map((autoadhesivo) => (
         <div className="row products">
           <div className="row">
-            <div className="col-12 col-lg-6">
+            <div className="col-lg-6">
               <div className='title-products'>
                 <h3>{autoadhesivo.titulo}</h3>
                 <span className='ico-h4'><img src={autoadhesivo.imgtop} alt="Papeles" /></span>
@@ -19,7 +19,7 @@ const Fotografico_autoadhesivo = () => {
 
               <img src={autoadhesivo.img} alt="Papeles" />
             </div>
-            <div className='col-12 col-lg-6'>
+            <div className='col-lg-6'>
               <div className='products-subtitles'>
                 <h4>{autoadhesivo.subtitulo}</h4>
               </div>

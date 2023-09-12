@@ -14,15 +14,10 @@ const Subli_tintas = () => {
                     </div>
                     <div className="col-lg-6 description">
                         <ul className='caracteristicas'>
-                            <div className='lis-caracteristicas'>
                                 <li><strong>95% de</strong><br />transferencia</li>
                                 <li>calidad<br /><strong>Ultra HD</strong></li>
-                            </div>
-                            <div className='lis-caracteristicas'>
                                 <li>excelente<br /><strong>fluidez</strong></li>
                                 <li>mejor relación<br /><strong>precio/calidad</strong></li>
-                            </div>
-
                         </ul>
                     </div>
                 </div>
@@ -46,7 +41,7 @@ const Subli_tintas = () => {
 
             {tintas.map((tinta) => (
                 <div className="row products">
-                    <div className="col-lg-6" key={tinta.id}>
+                    <div className="col-lg-6 left" key={tinta.id}>
                         <img className='img-fluid' src={tinta.img1} alt={tinta.titulo} />
                     </div>
                     <div className='col-lg-6 right'>

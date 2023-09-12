@@ -1,6 +1,7 @@
 .footer {
     background-color: #79BEDC;
-    height: 40rem;
+    height: auto;
+    padding: 1rem 0;
 }
 
 .cont-footer{
@@ -63,4 +64,16 @@
         color: white;
     }
 }
+
+
+@media (max-width: 576px) {
+.rowFoot{
+    .col-12{
+        display: flex !important;
+        flex-direction: column !important;
+        align-items: center !important;
+    }
+}
+}
+
 

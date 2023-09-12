@@ -11,7 +11,7 @@ const Fotografico_resinado = () => {
 {resinados.map((resinado) => (
         <div className="row products">
           <div className="row">
-            <div className="col-12 col-lg-6 img-products">
+            <div className="col-lg-6 img-products">
               <div className='title-products'>
                  <h3>{resinado.titulo}</h3>
               <span className='ico-h4'><img src={resinado.imgtop} alt="Papeles" /></span>
@@ -19,7 +19,7 @@ const Fotografico_resinado = () => {
              
               <img  src={resinado.img} alt="Papeles" />
             </div>
-            <div className='col-12 col-lg-6'>
+            <div className='col-lg-6'>
               <div className='products-subtitles'>
                 <h4>{resinado.subtitulo}</h4>
               </div>

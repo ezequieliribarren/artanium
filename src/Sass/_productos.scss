@@ -1,6 +1,7 @@
 .cards-products {
     display: flex;
     justify-content: center;
+    width: 100%;
 
     .card-products {
         border-radius: 3.6rem;
@@ -40,3 +41,12 @@
         height: 30rem;
     }  
 
+@media (max-width: 350px){
+    .card-products {
+        width: 26rem !important;
+        img{
+            width: 100% !important;
+        }
+
+    }
+}

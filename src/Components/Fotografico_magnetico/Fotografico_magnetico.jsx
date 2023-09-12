@@ -5,12 +5,12 @@ import { magneticos } from '../../js/fotografico';
 const Fotografico_magnetico = () => {
   return (
     <section id='fotografico-magnetico'>
-      <TopProducts title="Papel Fotográfico Magnético" subtitle="Alta definición." p="Nuestros papeles magnéticos con calidad fotográfica vienen en dos terminaciones superficiales." li2={<li><strong>Secado<br />Rápido.</strong></li>} li3={<li><strong>Resistente<br />al Agua.</strong></li>} li4={<li><strong>Alta <br />Resolución.</strong></li>} clase1="col detail" clase2="col description" />
+      <TopProducts title="Papel Fotográfico Magnético" subtitle="Alta definición." p="Nuestros papeles magnéticos con calidad fotográfica vienen en dos terminaciones superficiales." li2={<li><strong>Secado<br />Rápido.</strong></li>} li3={<li><strong>Resistente<br />al Agua.</strong></li>} li4={<li><strong>Alta <br />Resolución.</strong></li>} clase1="col-lg-6 detail" clase2="col-lg-6 description" />
 
       {magneticos.map((magnetico) => (
         <div className="row products">
           <div className="row">
-            <div className="col-12 col-lg-6">
+            <div className="col-lg-6">
               <div className='title-products'>
                 <h3>{magnetico.titulo}</h3>
                 <span className='ico-h4'><img src={magnetico.imgtop} alt="Papeles" /></span>
@@ -18,7 +18,7 @@ const Fotografico_magnetico = () => {
 
               <img src={magnetico.img} alt="Papeles" />
             </div>
-            <div className='col-12 col-lg-6'>
+            <div className='col-lg-6'>
               <div className='products-subtitles'>
                 {magnetico.subtitulo1}<h4>{magnetico.subtitulo}</h4>{magnetico.subtitulo2}
               </div>

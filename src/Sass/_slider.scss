@@ -1,0 +1,36 @@
+.slider {
+    margin-top: 2rem !important;
+
+}
+
+.title-slider {
+    h4 {
+        color: #37A2CE;
+    }
+}
+
+
+.slick-slide {
+    width: 240px !important;
+    margin: 0px;
+    padding: 0px !important;
+    margin-top: 2rem;
+
+}
+
+
+@media (max-width: 490px){
+    .slick-slide{
+        width: 220px !important;
+    }
+}
+
+
+.slick-slide:first-child {
+    margin-left: 0 !important;
+}
+
+/* Elimina el margen derecho del último elemento */
+.slick-slide:last-child {
+    margin-right: 0 !important;
+}

@@ -5,12 +5,12 @@ const Contacto = () => {
         <section id='contacto'>
             <div className=" container-fluid contacto">
                 <div className="row">
-                    <div className="col img-contacto">
+                    <div className="col-xl-6 img-contacto">
                         <div clasName="">
                              <img className='img-fluid' src="images/contacto/contacto.png" alt="Contacto" /> 
                         </div>
                     </div>
-                    <div className="col">
+                    <div className="col-xl-6">
                         <form className='formulario' action="">
                             <h3>Hablemos!</h3>
                             <div className='label-form'>

@@ -78,13 +78,15 @@
 @media (max-width: 992px) {
     .nosotros {
         .div-img-nosotros {
-            position: absolute;
+            position: absolute !important;
+            width: 9rem;
+
         }
 
         .img-nosotros {
             width: 9rem;
-            position: relative;
-            left: 65%;
+            position: relative !important;
+            left: 550% !important;
         }
 
         p{
@@ -111,4 +113,33 @@
         }
     }
 
+}
+
+@media (max-width: 450px) {
+    .nosotros {
+        .div-img-nosotros {
+            width: 7rem !important;
+
+        }
+
+        .img-nosotros {
+            width: 7rem !important;
+            left: 500% !important;
+        }
+    }
+
+}
+
+@media (max-width: 370px) {
+    .nosotros {
+        .div-img-nosotros {
+            width: 5rem !important;
+
+        }
+
+        .img-nosotros {
+            width: 5rem !important;
+            left: 650% !important;
+        }
+    }
 }

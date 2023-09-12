@@ -1,4 +1,10 @@
 .cols-transfer{
     display: flex;
     align-items: center;
+
+    .col{
+        ul{
+            display: flex;
+        }
+    }
 }

@@ -3,15 +3,16 @@
 
     .contacto {
         margin-top: 5rem;
-
+    display: flex;
+    justify-content: center;
         .img-contacto {
             display: flex;
             justify-content: center;
             align-items: center;
-            width: 40rem !important;
+            width: 70rem ;
 
             img {
-                width: 100% !important;
+                width: 100% ;
             }
         }
     }
@@ -26,7 +27,7 @@
     }
 
     .formulario {
-
+width: 100%;
         input,
         select {
             border-radius: 50px;
@@ -95,7 +96,65 @@
     }
 }
 
-@media (max-width: 455px) {}
+@media (max-width: 1430px) {
+    .img-contacto {
+
+        width: 60rem !important;
+    }
+}
+
+@media (max-width: 1330px) {
+    .img-contacto {
+
+        width: 50rem !important;
+    }
+}
+
+@media (max-width: 1330px) {
+    .img-contacto {
+
+        width: 45rem !important;
+    }
+}
+
+@media (max-width: 1200px) {
+.contacto{
+    .row{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .img-contacto {
+      width: 80% !important; 
+    
+    }
+
+    .formulario{
+        input,
+         select {
+             height: 5.4rem;
+             width: 100% !important;
+             margin: 0.5rem 0;
+             font-size: 1.4rem;
+         }
+     
+     
+         textarea {
+             width: 100% !important;
+             height: 20rem;
+         }   
+
+         .label-form{
+            width: 100%;
+            input{
+                width: 100%;
+            }
+         }
+     }
+
+}
+}
 
 @media (max-width: 455px) {
 
@@ -107,4 +166,7 @@
             display: none;
         }
     }
+
+  
+
 }

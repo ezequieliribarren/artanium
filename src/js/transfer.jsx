@@ -11,9 +11,9 @@ export const transfers = [
         b1: "se puede adherir con plancha doméstica o prensa plana.",
         b2: "se puede cortar con plotter o a mano.",
         b3: "en textiles de algodón blancos.",
-        c1: "/images/subli/transfer/c1.png",
-        c2: "/images/subli/transfer/c2.png",
-        c3: "/images/subli/transfer/c3.png",
+        c1: "/images/transfer/c1.png",
+        c2: "/images/transfer/c2.png",
+        c3: "/images/transfer/c3.png",
     },
     {
         id: 2,
@@ -27,9 +27,9 @@ export const transfers = [
         b1: "se puede adherir con plancha doméstica o prensa plana.",
         b2: "se puede cortar con plotter o a mano.",
         b3: "en textiles de algodón blancos.",
-        c1: "/images/subli/transfer/c1.png",
-        c2: "/images/subli/transfer/c2.png",
-        c3: "/images/subli/transfer/c3.png",
+        c1: "/images/transfer/c1.png",
+        c2: "/images/transfer/c2.png",
+        c3: "/images/transfer/c3.png",
 
     }
 ]
