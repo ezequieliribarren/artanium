@@ -47,7 +47,9 @@ const Navbar = () => {
                                 <a className="nav-link">Comunidad</a>
                             </li>
                             <li className="nav-item">
-                                <a className="nav-link">Ser distribuidor</a>
+                            <Link className="nav-link" to="/ser-distribuidor">
+                                    Ser distribuidor
+                                </Link>
                             </li>
                             <li className="nav-item li-contact">
                                 <Link className="nav-link" smooth to="/#contacto">

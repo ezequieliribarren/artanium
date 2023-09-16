@@ -14,10 +14,6 @@ const Header = () => {
             <img src="/images/header/img2.png" className="d-block w-100 none-desktop" alt="Artanium" />
             {/* <img src="/images/header/img3.png" className="d-block w-100 none-mobile" alt="Artanium" /> */}
           </div>
-          <div className="carousel-item">
-            <img src="/images/header/img3.png" className="d-block w-100 none-desktop" alt="Artanium" />
-            {/* <img src="/images/header/img5.png" className="d-block w-100 none-mobile" alt="Artanium" /> */}
-          </div>
         </div>
       </div>
     </header>

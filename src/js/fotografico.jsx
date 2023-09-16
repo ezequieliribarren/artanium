@@ -2,7 +2,7 @@ export const magneticos = [
     {
         id: 1,
         titulo: "Fast Dry",
-        img: "/images/subli/papeles/img1.png",
+        img: "/images/fotografico/magnetico1.png",
         imgtop: "/images/subli/papeles/imgtop.png",
         subtitulo: "Para uso en impresoras inkjet con tinta de sublimación.",
         a1: "Dorso impreso",
@@ -24,7 +24,7 @@ export const magneticos = [
     {
         id: 2,
         titulo: "Instant Dry",
-        img: "/images/subli/papeles/img1.png",
+        img: "/images/fotografico/magnetico2.png",
         imgtop: "/images/subli/papeles/imgtop.png",
         subtitulo: "Para uso en impresoras inkjet con tinta de sublimación.",
         a1: "Dorso impreso",
@@ -49,7 +49,7 @@ export const autoadhesivos = [
     {
         id: 1,
         titulo: "Fast Dry",
-        img: "/images/subli/papeles/img1.png",
+        img: "/images/fotografico/autoadhesivo1.png",
         imgtop: "/images/subli/papeles/imgtop.png",
         subtitulo: "Para uso en impresoras inkjet con tinta de sublimación.",
         a1: "Dorso impreso",
@@ -71,7 +71,7 @@ export const autoadhesivos = [
     {
         id: 2,
         titulo: "Instant Dry",
-        img: "/images/subli/papeles/img1.png",
+        img: "/images/fotografico/autoadhesivo2.png",
         imgtop: "/images/subli/papeles/imgtop.png",
         subtitulo: "Para uso en impresoras inkjet con tinta de sublimación.",
         a1: "Dorso impreso",
@@ -96,7 +96,7 @@ export const resinados = [
     {
         id: 1,
         titulo: "Fast Dry",
-        img: "/images/subli/papeles/img1.png",
+        img: "/images/fotografico/resinado1.png",
         imgtop: "/images/subli/papeles/imgtop.png",
         subtitulo: "Para uso en impresoras inkjet con tinta de sublimación.",
         a1: "Resalta los colores",
@@ -113,7 +113,7 @@ export const resinados = [
     {
         id: 2,
         titulo: "Instant Dry",
-        img: "/images/subli/papeles/img1.png",
+        img: "/images/fotografico/resinado2.png",
         imgtop: "/images/subli/papeles/imgtop.png",
         subtitulo: "Para uso en impresoras inkjet con tinta de sublimación.",
         a1: "Resalta los colores",
@@ -131,7 +131,7 @@ export const resinados = [
     {
         id: 3,
         titulo: "Instant Dry",
-        img: "/images/subli/papeles/img1.png",
+        img: "/images/fotografico/resinado3.png",
         imgtop: "/images/subli/papeles/imgtop.png",
         subtitulo: "Para uso en impresoras inkjet con tinta de sublimación.",
         a1: "Gran Nitidez ",

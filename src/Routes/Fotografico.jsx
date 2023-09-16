@@ -12,7 +12,7 @@ import Fotografico_autoadhesivo from '../Components/Fotografico_autoadhesivo/Fot
 const Fotografico = () => {
   return (
     <Layout>
-        <Hero image="images/fotografico/header.png"/>
+        <Hero image="images/fotografico/header.png" mobile="images/subli/header-mobile.png"/>
         <Buttons button1= {<button>Tintas</button>} button2={<button>Papeles</button>} clase="buttons-blue"/>
         <CallAction/>
         <Fotografico_mate/>

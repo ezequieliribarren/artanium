@@ -13,7 +13,7 @@ import Buttons from '../Components/Buttons/Buttons'
 const Subli = () => {
     return (
         <Layout>
-            <Hero image="images/subli/header.png" />
+            <Hero  image="images/subli/header.png" mobile="images/subli/header-mobile.png"/>
             <Buttons button1= {<button>Tintas</button>} button2={<button>Papeles</button>} clase="buttons-orange" />
             <Subli_tintas />
             <Subli_papeles />

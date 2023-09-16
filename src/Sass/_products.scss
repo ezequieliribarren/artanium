@@ -83,7 +83,16 @@
             display: flex;
             flex-direction: column;
             justify-content: center;
+            align-items: center;
             margin-bottom: 3rem;
+
+            .left{
+                padding-left: 7%;
+            }
+
+            img {
+                max-width: 85%;
+            }
         }
 
         .right h3 {
@@ -92,9 +101,9 @@
             color: #37A2CE;
         }
 
-.papeles-right{
-    margin-top: 5rem;
-}
+        .papeles-right {
+            margin-top: 5rem;
+        }
 
         .dtf-columns {
             col {
@@ -131,12 +140,6 @@
 
         }
 
-        h3 {
-            font-family: titilium-bold;
-            text-align: center;
-            margin: 0;
-            font-size: 3.2rem;
-        }
 
         li {
             color: #37A2CE;
@@ -150,7 +153,6 @@
             justify-content: start;
             padding: 0;
             margin: 0 1rem;
-
 
             .products-a {
                 display: flex;
@@ -185,6 +187,8 @@
 
         }
 
+
+
     }
 }
 
@@ -202,6 +206,82 @@
     background: #37A2CE;
 
 }
+
+
+
+// PRODUCT AZUL - UL-AZUL - UL-PRODUCTS
+
+.product-azul {
+    display: flex;
+    align-items: center;
+    padding-left: 7%;
+}
+
+.ul-azul {
+    display: flex;
+    background-color: #B5DBEC;
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+
+    .point-ul-azul {
+        margin-right: 0.5rem;
+    }
+
+    li {
+        color: black;
+    }
+
+    p {
+        margin-left: 0.5rem !important;
+    }
+
+    h4,
+    p {
+        color: #1F2F36 !important;
+        font-size: 1.6rem;
+    }
+}
+
+.ul-products,
+.ul-azul {
+    display: flex;
+    justify-content: start;
+    padding: 0;
+    margin: 0 1rem;
+
+    .products-a {
+        display: flex;
+        align-items: start;
+        margin: 1.5rem 0.5rem;
+
+        h4 {
+            color: #37A2CE;
+            font-size: 1.6rem;
+        }
+    }
+
+    .products-b {
+        display: flex;
+        align-items: start;
+        margin: 1.5rem 0.5rem;
+        height: 8rem;
+
+        p {
+            color: #37A2CE;
+            font-size: 1.6rem;
+        }
+
+    }
+
+    .products-c {
+        display: flex;
+        justify-content: start;
+        align-items: center;
+        margin: 1.5rem 0.5rem;
+    }
+
+}
+
 
 
 @media (max-width : 1278px) {
@@ -252,9 +332,10 @@
     }
 
     .products {
-.papeles-right{
-    margin-top: 2rem;
-}
+        .papeles-right {
+            margin-top: 2rem;
+        }
+
         .col-lg-6 {
             align-items: center;
 
@@ -347,8 +428,8 @@
                 }
             }
 
-            .products-c{
-                img{
+            .products-c {
+                img {
                     width: 3rem !important;
                 }
             }

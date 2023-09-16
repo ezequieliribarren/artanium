@@ -1,36 +1,32 @@
 // DTF
 
-#dtf-products{
-    h3{
-        text-align: left !important;
+#dtf-products {
+    .col-lg-4 {
+        padding-left: 7%;
     }
-    h4{
+
+    h3 {
+        text-align: left !important;
+        padding-left: 7%;
+    }
+
+    h4 {
         color: #37A2CE;
     }
 
-    .dtf-columns{
-        display: flex;
-        align-items: center;
-.col{
-   margin-top: 2rem;
-}
-    }
+    .dtf-columns {
+      
+            display: flex;
+            align-items: center;
+            margin-top: 4rem;
 
-    .title-line{
-        h4{
-            width: 45rem;
+            .col-lg-6 {
+                padding-left: 7%;
+            }
         }
-        display: flex;
-        align-items: center;
-        width: 100%;
-    }
 
-    .ul-azul{
-        background-color: #B5DBEC;
-        border-top-left-radius: 30px;
-        border-bottom-left-radius: 30px;
-        li{
-            color: black;
-        }
+
+
+
+
     }
-}

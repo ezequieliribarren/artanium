@@ -18,7 +18,7 @@ export const transfers = [
     {
         id: 2,
         titulo: "Textil Oscuro",
-        img: "/images/subli/papeles/img1.png",
+        img: "/images/transfer/transfer2.png",
         imgtop: "/images/subli/papeles/imgtop.png",
         subtitulo: "Para uso en impresoras inkjet con tinta de sublimación.",
         a1: "Hogareño y comercial",
@@ -33,3 +33,48 @@ export const transfers = [
 
     }
 ]
+
+export const product_azul = [
+    {
+        id: 1,
+        titulo: "Tinta Pigmentada",
+        img: "/images/transfer/tinta.png",
+        imgtop: "/images/Dtf/1lt.png",
+        subtitulo: "Para uso en impresora Direct To Film.",
+        subtitulo1: "Colores intensos y vibrantes, tinta blanca con excelente elasticidad.",
+        clase: "ul-azul",
+        line: "",
+        a1: "Dorso impreso",
+        a2: "Máxima descarga",
+        a3: "Secado rápido",
+        b1: "para identificar fácilmente el lado blanco imprimible.",
+        b2: "descarga de tinta sin igual, logrando resultados con colores súper nítidos.",
+        b3: "minimiza el riesgo de manchas o borrones y da mayor eficiencia.",
+        c1: "/images/subli/papeles/c1.png",
+        c2: "/images/subli/papeles/c2.png",
+        c3: "/images/subli/papeles/c3.png",
+
+    },
+    {
+        id: 2,
+        titulo: "Film para DTF",
+        img: "/images/transfer/tinta.png",
+        imgtop: "/images/subli/papeles/imgtop.png",
+        subtitulo: "Para uso en impresora Direct To Film.",
+        clase: "ul-azul",
+        line: "line",
+        product: "Rollo",
+        a1: "Dorso impreso",
+        a2: "No se marca",
+        a3: "Secado rápido",
+        b1: "para identificar fácilmente el lado blanco imprimible.",
+        b2: "no deja “camino de hormiga” en tus impresiones.",
+        b3: "minimiza el riesgo de manchas o borrones y da mayor eficiencia.",
+        c1: "/images/subli/papeles/c1.png",
+        c2: "/images/subli/papeles/c2.1.png",
+        c3: "/images/subli/papeles/c3.png",
+
+    },
+
+]
+

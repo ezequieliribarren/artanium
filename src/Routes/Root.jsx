@@ -5,6 +5,7 @@ import Nosotros from '../Components/Nosotros/Nosotros'
 import Distribuidores from '../Components/Distribuidores/Distribuidores'
 import Header from '../Components/Header/Header'
 import Contacto from '../Components/Contacto/Contacto'
+import Forma_parte from '../Components/Forma_parte/Forma_parte'
 
 const Root = () => {
   return (
@@ -14,6 +15,7 @@ const Root = () => {
         <Productos />
         <Nosotros />
         <Distribuidores />
+        <Forma_parte/>
         <Contacto/>
       </Layout>
     </>

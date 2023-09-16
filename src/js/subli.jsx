@@ -158,7 +158,7 @@ export const plotters = [
     {
         id: 2,
         titulo: "Rollo 70 gr.",
-        img: "/images/subli/plotter/img1.png",
+        img: "/images/subli/plotter/img2.png",
         imgtop: "/images/subli/plotter/imgtop.png",
         subtitulo2: (
             <h4>
@@ -186,7 +186,7 @@ export const plotters = [
     {
         id: 3,
         titulo: "Rollo 80 gr.",
-        img: "/images/subli/plotter/img1.png",
+        img: "/images/subli/plotter/img3.png",
         imgtop: "/images/subli/plotter/imgtop.png",
         subtitulo2: (
             <h4>
@@ -214,7 +214,7 @@ export const plotters = [
     {
         id: 4,
         titulo: "Rollo 100 gr.",
-        img: "/images/subli/plotter/img1.png",
+        img: "/images/subli/plotter/img4.png",
         imgtop: "/images/subli/plotter/imgtop.png",
         subtitulo1: (
             <h4 className="subtitulo1">

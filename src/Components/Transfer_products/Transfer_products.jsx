@@ -1,12 +1,15 @@
 import React from 'react'
 import { transfers } from '../../js/transfer';
 import TopProducts from '../TopProducts/TopProducts';
+
 const Transfer_products = () => {
   return (
-    <section id='transfer-products'>
-      <TopProducts title="Papel Transfer Inkjet" subtitle="Transferencia óptima / alta definición." p="En Artanium, presentamos una gama diversa de papeles transfer diseñados tanto para aplicaciones en textiles claros como oscuros." li1={<li><strong>Calidad<br /> Fotográfica</strong></li>} li2={<li><strong>Alta adherencia<br />a la tela.</strong></li>} li3={<li><strong>Terminación<br />suave y elástica.</strong></li>} li4={<li><strong>Resistente<br />a la decoloración.</strong></li>} clase1="col-lg-6 detail" clase2="col-lg-6 description" />
+    <section id='transfer-products'>      
+      <TopProducts title="Papel Transfer Inkjet" subtitle="Transferencia óptima / alta definición." p="En Artanium, presentamos una gama diversa de papeles transfer diseñados tanto para aplicaciones en textiles claros como oscuros." li1={<li><strong>Calidad<br /> Fotográfica</strong></li>} li2={<li><strong>Alta adherencia<br />a la tela.</strong></li>} li3={<li><strong>Terminación<br />suave y elástica.</strong></li>} li4={<li><strong>Resistente<br />a la decoloración.</strong></li>} clase1="col-lg-6 detail" clase2="col-lg-6 description" />                    
+
       {transfers.map((transfer) => (
         <div className="row products">
+
           <div className="row cols-transfer">
             <div className="col-lg-6">
               <img className='img-fluid' src={transfer.img} alt="Transfer" />

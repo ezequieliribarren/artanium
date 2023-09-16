@@ -3,6 +3,21 @@ header{
     img{width: 100%;}
 }
 
+.hero-mobile{
+    display: none;
+}
+
+
+@media(max-width: 520px) {
+    .hero-desktop{
+        display: none;
+    }
+
+    .hero-mobile{
+        display: inherit;
+    }
+}
+
 @media(max-width: 435px) {
     header{
         padding-top: 17rem !important;

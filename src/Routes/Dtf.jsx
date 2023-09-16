@@ -9,7 +9,7 @@ import CallComunidad from '../Components/CallComunidad/CallComunidad'
 const Dtf = () => {
   return (
     <Layout>
-      <Hero image="images/Dtf/header.png" />
+      <Hero image="images/Dtf/header.png" mobile="images/subli/header-mobile.png" />
       <Buttons button1={<button>Tintas</button>} button2={<button>Film</button>} button3={<button>Polvo</button>} clase="buttons" />
       <Dtf_products />
       <CallAction/>
