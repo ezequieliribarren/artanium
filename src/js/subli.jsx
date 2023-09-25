@@ -34,7 +34,6 @@ export const papeles = [
         d3: "/images/subli/papeles/d3.png",
         d4: "/images/subli/papeles/d4.png",
         d5: "/images/subli/papeles/d5.png",
-        clase: "col-lg-6 left",
 
     },
     {
@@ -57,7 +56,6 @@ export const papeles = [
         d3: "/images/subli/papeles/d3.1.png",
         d4: "/images/subli/papeles/d4.1.png",
         d5: "/images/subli/papeles/d5.1.png",
-        clase: "col-lg-6 left",
 
     },
     {
@@ -68,10 +66,13 @@ export const papeles = [
         subtitulo: "Para uso en impresoras inkjet con tinta de sublimación.",
 
         subtitulo2: (
-            <h4>
-              Buje interno: 2”
-              <span className="buje"><img src="images/subli/papeles/buje.png" alt="Buje" /></span>
-            </h4>
+            <div className="flex-center">
+                <h4>
+                    Buje interno: 2”
+
+                </h4><img className="buje" src="images/subli/papeles/buje.png" alt="Buje" />
+            </div>
+
         ),
         a1: "Alta descarga de tinta",
         a2: "Impresión de plenos",
@@ -87,8 +88,6 @@ export const papeles = [
         d3: "/images/subli/papeles/rollo3.png",
         d4: "/images/subli/papeles/rollo4.png",
         d5: "/images/subli/papeles/rollo5.png",
-        clase: "col-lg-6 left",
-
     },
     {
         id: 4,
@@ -102,10 +101,12 @@ export const papeles = [
             </h4>
         ),
         subtitulo2: (
-            <h4>
-              Buje interno: 2”
-              <span className="buje"><img src="images/subli/papeles/buje.png" alt="Buje" /></span>
-            </h4>
+            <div className="flex-center">
+                <h4>
+                    Buje interno: 2”
+                </h4>
+                <img className="buje" src="images/subli/papeles/buje.png" alt="Buje" />
+            </div>
         ),
         a1: "Alta descarga de tinta",
         a2: "Impresión de plenos",
@@ -121,7 +122,6 @@ export const papeles = [
         d3: "/images/subli/papeles/rolloi3.png",
         d4: "/images/subli/papeles/rolloi4.png",
         d5: "/images/subli/papeles/rolloi5.png",
-        clase: "col-lg-6 left",
 
     },
 ]
@@ -133,15 +133,17 @@ export const plotters = [
         img: "/images/subli/plotter/img1.png",
         imgtop: "/images/subli/plotter/imgtop.png",
         subtitulo2: (
-            <h4>
-              Buje interno: 3”
-              <span className="buje"><img src="images/subli/papeles/buje.png" alt="Buje" /></span>
-            </h4>
+            <div className="flex-center">
+                <h4>
+                    Buje interno: 3”
+
+                </h4><img className="buje" src="images/subli/papeles/buje.png" alt="Buje" />
+            </div>
         ),
         a1: "Fast Dry",
         a2: "Ideal para calandra",
         a3: "Media carga de tinta",
-        b1: "su propiedad hidrófuga, lo hace resistente a la humedad. No se dobla.",
+        b1: "Propiedad hidrófuga, resistente a la humedad. No se dobla.",
         b2: "por su alta velocidad de transferencia.",
         b3: "soporta una carga de tinta media.",
         c1: "/images/subli/papeles/c3.png",
@@ -152,7 +154,6 @@ export const plotters = [
         d3: "/images/subli/plotter/plotter3.png",
         d4: "/images/subli/plotter/plotter4.png",
         d5: "/images/subli/plotter/plotter5.png",
-        clase: "col-lg-6",
 
     },
     {
@@ -161,10 +162,12 @@ export const plotters = [
         img: "/images/subli/plotter/img2.png",
         imgtop: "/images/subli/plotter/imgtop.png",
         subtitulo2: (
-            <h4>
-              Buje interno: 3”
-              <span className="buje"><img src="images/subli/papeles/buje.png" alt="Buje" /></span>
-            </h4>
+            <div className="flex-center">
+                <h4>
+                    Buje interno: 3”
+
+                </h4><img className="buje" src="images/subli/papeles/buje.png" alt="Buje" />
+            </div>
         ),
         a1: "Fast Dry",
         a2: "Ideal para calandra",
@@ -180,7 +183,6 @@ export const plotters = [
         d3: "/images/subli/plotter/plotter8.png",
         d4: "/images/subli/plotter/plotter9.png",
         d5: "/images/subli/plotter/plotter10.png",
-        clase: "col-lg-6",
 
     },
     {
@@ -189,10 +191,12 @@ export const plotters = [
         img: "/images/subli/plotter/img3.png",
         imgtop: "/images/subli/plotter/imgtop.png",
         subtitulo2: (
-            <h4>
-              Buje interno: 3”
-              <span className="buje"><img src="images/subli/papeles/buje.png" alt="Buje" /></span>
-            </h4>
+            <div className="flex-center">
+                <h4>
+                    Buje interno: 3”
+
+                </h4><img className="buje" src="images/subli/papeles/buje.png" alt="Buje" />
+            </div>
         ),
         a1: "Fast Dry",
         a2: "Ideal para calandra",
@@ -208,7 +212,6 @@ export const plotters = [
         d3: "/images/subli/plotter/plotter13.png",
         d4: "/images/subli/plotter/plotter14.png",
         d5: "/images/subli/plotter/plotter15.png",
-        clase: "col-lg-6",
 
     },
     {
@@ -222,10 +225,10 @@ export const plotters = [
             </h4>
         ),
         subtitulo2: (
-            <h4>
-              Buje interno: 3”
-              <span className="buje"><img src="images/subli/papeles/buje.png" alt="Buje" /></span>
-            </h4>
+            <div className="flex-center"><h4>
+                Buje interno: 3”
+            </h4><img className="buje" src="images/subli/papeles/buje.png" alt="Buje" />
+            </div>
         ),
         a1: "Fast Dry",
         a2: "Ideal para calandra",
@@ -241,8 +244,6 @@ export const plotters = [
         d3: "/images/subli/plotter/plotter18.png",
         d4: "/images/subli/plotter/plotter19.png",
         d5: "/images/subli/plotter/plotter20.png",
-        clase: "col-lg-6",
-
     },
 ]
 

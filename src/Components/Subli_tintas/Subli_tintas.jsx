@@ -1,5 +1,4 @@
 import React from 'react'
-import CallAction from '../CallAction/CallAction'
 import { tintas } from '../../js/subli';
 
 const Subli_tintas = () => {
@@ -41,16 +40,15 @@ const Subli_tintas = () => {
 
             {tintas.map((tinta) => (
                 <div className="row products">
-                    <div className="col-lg-6 left" key={tinta.id}>
+                    <div className="col-lg-6 left p-5" key={tinta.id}>
                         <img className='img-fluid' src={tinta.img1} alt={tinta.titulo} />
                     </div>
-                    <div className='col-lg-6 right'>
+                    <div className='col-lg-6 right p-5'>
                         <h3>{tinta.titulo}</h3>
                         <img className='img-fluid' src={tinta.img2} alt="" />
                     </div>
                 </div>
             ))}
-            <CallAction />
         </section>
     )
 }

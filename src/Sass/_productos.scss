@@ -12,16 +12,36 @@
         width: 31rem;
         margin: 1.5rem;
 
-        h3{
-            margin-top: 1rem;
+        h3 {
+            margin-top: 2.5rem;
+            text-align: center;
+            font-family: titilium-bold;
+            color: #37A2CE;
         }
 
         p {
             font-size: 1.4rem;
+            text-align: center;
+            color: black;
         }
 
         button {
             margin-bottom: 2rem;
+        }
+
+        .button-products {
+            display: flex;
+            justify-content: center;
+        }
+
+        .button-products:hover {
+
+            transform: scale(1.1); 
+        }
+
+        .button-products button:hover{
+            background-color: #37A2CE;
+            color: white;
         }
 
     }
@@ -30,21 +50,22 @@
         margin-top: 2rem;
     }
 
-  .card-products:hover{
-        transform: scale(1.04);
+    .card-products:hover {
+        transform: scale(1.005);
     }
 }
 
-    .card-top {
-        display: flex;
-        align-items: center;
-        height: 30rem;
-    }  
+.card-top {
+    display: flex;
+    align-items: center;
+    height: 30rem;
+}
 
-@media (max-width: 350px){
+@media (max-width: 350px) {
     .card-products {
         width: 26rem !important;
-        img{
+
+        img {
             width: 100% !important;
         }
 

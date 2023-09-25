@@ -52,7 +52,15 @@ html {
 }
 
 
-
+@media (max-width : 700px) {
+    .buttons {
+        button {
+            font-size: 1.6rem;
+            width: 13rem;
+            height: 3rem;
+        }
+    }
+}
 
 
 @media (max-width : 510px) {
@@ -64,5 +72,29 @@ html {
         }
     }
 
+    .buttons {
+        height: 13rem !important;
+        flex-direction: column;
+        justify-content: center;
 
+        button {
+            margin: 0.5rem 0 !important;
+        }
+    }
+
+
+}
+
+@media (max-width : 370px) {
+
+    .buttons-orange,
+    .buttons-pink,
+    .buttons-blue {
+
+        button {
+            font-size: 1.4rem;
+            width: 11rem;
+            height: 3rem;
+        }
+    }
 }

@@ -5,13 +5,13 @@ const Subli_protector = () => {
   return (
     <section id='subli-protector'>
       <div className="row products">
-        <div className="row">
-          <div className="col-lg-6">
+        <div className="row contenedor">
+          <div className="col-lg-6 left">
             <img className='img-fluid' src="images/subli/plotter/protector.png" alt="Papel Protector para calandra" />
           </div>
           <div className='col-lg-6'>
             <div className='products-subtitles'>
-              <h4>Papel protector de planchas y prensa de calor rotativa para la transferencia en sublimación.</h4>
+              <h4 className='h4-protector'>Papel protector de planchas y prensa de calor rotativa para la transferencia en sublimación.</h4>
             </div>
             <div className="line"></div>
             <div className="ul-products">
@@ -34,7 +34,7 @@ const Subli_protector = () => {
             <div className="line"></div>
 
           </div>
-          <Slider_products img1="images/subli/plotter/protector1.png" img2="images/subli/plotter/protector2.png" img3="images/subli/plotter/protector3.png" img4="images/subli/plotter/protector3.png" img5="images/subli/plotter/protector4.png" />
+          <Slider_products img1="images/subli/plotter/protector1.png" img2="images/subli/plotter/protector2.png" img3="images/subli/plotter/protector3.png" img4="images/subli/plotter/protector3.png" img5="images/subli/plotter/protector4.png" ideales={<h4> <strong >Ideales para:</strong></h4>}  />
         </div>
 
 

@@ -3,7 +3,7 @@ import React from 'react'
 const Nosotros = () => {
   return (
     <section id='nosotros' className='nosotros' >
-      <div className='container '>
+      <div className='container'>
         <div className='row'>
           <div className="col-12 col-lg-6">
             <h2 className='margin-title'>Nosotros</h2>
@@ -15,7 +15,7 @@ const Nosotros = () => {
             <button>Contactanos</button>
           </div>
           <div className="col-12 col-lg-6 div-img-nosotros">
-            <img className='img-nosotros' src="./images/nosotros/nosotros.png" alt="Nosotros" />
+            <img className='img-nosotros img-fluid' src="./images/nosotros/nosotros.png" alt="Nosotros" />
           </div>
         </div>
         <div className='row row-valores'>

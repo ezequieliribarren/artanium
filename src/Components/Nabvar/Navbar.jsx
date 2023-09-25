@@ -9,28 +9,30 @@ const Navbar = () => {
     const [isMenuOpen, setIsMenuOpen] = useState(false);
 
     const toggleMenu = () => {
-      setIsMenuOpen(!isMenuOpen);
+        setIsMenuOpen(!isMenuOpen);
     };
-  
+
+    
+
     return (
         <>
             <nav className="navbar navbar-expand-lg bg-light navbars">
                 <div className="container-fluid nav1">
                     <a className="navbar-brand px-5" href="#"><img className="logo-navbar" src="/images/logo.png" alt="" /></a>
                     <button
-            className={`navbar-toggler ${isMenuOpen ? "collapsed" : ""}`}
-            type="button"
-            data-bs-toggle="collapse"
-            data-bs-target="#navbarNav"
-            aria-controls="navbarNav"
-            aria-expanded="false"
-            aria-label="Toggle navigation"
-            onClick={toggleMenu}
-          >
-            <span className={`navbar-toggler-icon ${isMenuOpen ? "d-none" : ""}`}></span>
-            <span id="close-icon" className={`close-icon ${isMenuOpen ? "" : "d-none"}`}>&#88;</span>
-          </button>
-          <div className={`collapse navbar-collapse ${isMenuOpen ? "show" : ""}`} id="navbarNav">
+                        className={`navbar-toggler ${isMenuOpen ? "collapsed" : ""}`}
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#navbarNav"
+                        aria-controls="navbarNav"
+                        aria-expanded="false"
+                        aria-label="Toggle navigation"
+                        onClick={toggleMenu}
+                    >
+                        <span className={`navbar-toggler-icon ${isMenuOpen ? "d-none" : ""}`}></span>
+                        <span id="close-icon" className={`close-icon ${isMenuOpen ? "" : "d-none"}`}>&#88;</span>
+                    </button>
+                    <div className={`collapse navbar-collapse ${isMenuOpen ? "show" : ""}`} id="navbarNav">
                         <ul className="navbar-nav">
                             <li className="nav-item">
                                 <a className="nav-link" href="#">Inicio</a>
@@ -47,7 +49,7 @@ const Navbar = () => {
                                 <a className="nav-link">Comunidad</a>
                             </li>
                             <li className="nav-item">
-                            <Link className="nav-link" to="/ser-distribuidor">
+                                <Link className="nav-link" to="/ser-distribuidor">
                                     Ser distribuidor
                                 </Link>
                             </li>
@@ -69,20 +71,20 @@ const Navbar = () => {
                                 </a>
                                 <ul className="dropdown-menu">
                                     <li>
-                                        <Link className="nav-link" smooth to="/sublimacion/#papeles-sublimacion">
+                                        <Link className="nav-link" smooth to='/sublimacion/#papeles-sublimacion'>
                                             Sublimación
                                         </Link>
                                     </li>
-                                    <li><Link className="nav-link" smooth to="/sublimacion/#papeles-transfer">
+                                    <li><Link className="nav-link" smooth to="/transfer/#papeles-transfer">
                                         Transfer
                                     </Link></li>
                                     <li><Link className="nav-link" smooth to="/fotografico/#fotografico-mate">
                                         Fotográfico Mate
                                     </Link></li>
-                                    <li><Link className="nav-link" smooth to="/fotografico/#fotografico-glossy">
+                                    <li><Link className='nav-link' smooth to="/fotografico/#fotografico-glossy">
                                         Fotográfico Glossy
                                     </Link></li>
-                                    <li><Link className="nav-link" smooth to="/fotografico/#fotografico-resinado">
+                                    <li><Link className="nav-link" smooth to='/fotografico/#fotografico-resinado'>
                                         Fotográfico Resinado
                                     </Link></li>
                                     <li><Link className="nav-link" smooth to="/fotografico/#fotografico-autoadhesivo">
@@ -101,10 +103,12 @@ const Navbar = () => {
                                     <li> <Link className="nav-link" smooth to="/sublimacion/#tintas-sublimacion">
                                         Sublimación
                                     </Link></li>
-                                    <li> <Link className="nav-link" smooth to="/dtf">
+                                    <li> <Link className="nav-link" smooth to="/dtf/#tinta-dtf">
                                         DTF
                                     </Link></li>
-                                    <li><a className="dropdown-item" href="#">Ink Jet</a></li>
+                                    <li><Link className="nav-link" smooth to="/fotografico">
+                                        Ink Jet
+                                    </Link></li>
                                 </ul>
                             </li>
                             <li className="nav-item dropdown">
@@ -112,7 +116,12 @@ const Navbar = () => {
                                     Otros
                                 </a>
                                 <ul className="dropdown-menu">
-
+                                    <li> <Link className="nav-link" smooth to="/dtf/#polvo-dtf">
+                                        Polvo DTF
+                                    </Link></li>
+                                    <li> <Link className="nav-link" smooth to="/dtf/#film-dtf">
+                                        Film DTF
+                                    </Link></li>
                                 </ul>
                             </li>
                         </ul>

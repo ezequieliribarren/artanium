@@ -147,3 +147,51 @@ export const resinados = [
     }
 ]
 
+export const product_azul = [
+    {
+        id: 1,
+        titulo: "Tintas Inkjet",
+        img: "/images/fotografico/tintas.png",
+        imgtop1: "/images/transfer/100ml.png",
+        imgtop2: "/images/transfer/1lt.png",
+        imgtop4: "/images/transfer/imgtop2.png",
+        subtitulo: "Para uso en impresora Direct To Film.",
+        subtitulo1: "Colores intensos y vibrantes, tinta blanca con excelente elasticidad.",
+        clase: "ul-azul",
+        line: "",
+        a1: "Dorso impreso",
+        a2: "Máxima descarga",
+        a3: "Secado rápido",
+        b1: "para identificar fácilmente el lado blanco imprimible.",
+        b2: "descarga de tinta sin igual, logrando resultados con colores súper nítidos.",
+        b3: "minimiza el riesgo de manchas o borrones y da mayor eficiencia.",
+        c1: "/images/subli/papeles/c1.png",
+        c2: "/images/subli/papeles/c2.png",
+        c3: "/images/subli/papeles/c3.png",
+
+    },
+    // {
+    //     id: 2,
+    //     titulo: "Film para DTF",
+    //     img: "/images/transfer/tinta.png",
+    //    imgtop1: "/images/transfer/100ml.png",
+    // imgtop2: "/images/transfer/250ml.png",
+    // imgtop3: "/images/transfer/1lt.png",
+    // imgtop4: "/images/transfer/imgtop2.png",
+    //     subtitulo: "Para uso en impresora Direct To Film.",
+    //     clase: "ul-azul",
+    //     line: "line",
+    //     product: "Rollo",
+    //     a1: "Dorso impreso",
+    //     a2: "No se marca",
+    //     a3: "Secado rápido",
+    //     b1: "para identificar fácilmente el lado blanco imprimible.",
+    //     b2: "no deja “camino de hormiga” en tus impresiones.",
+    //     b3: "minimiza el riesgo de manchas o borrones y da mayor eficiencia.",
+    //     c1: "/images/subli/papeles/c1.png",
+    //     c2: "/images/subli/papeles/c2.1.png",
+    //     c3: "/images/subli/papeles/c3.png",
+
+    // },
+
+]

@@ -1,36 +1,67 @@
-.slider {
-    margin-top: 2rem !important;
-
+.slider{
+    display: flex;
+    margin-top: 0.5rem !important;
 }
 
-.title-slider {
-    h4 {
+.slider-fixed{
+    .slider-div{
+        img{
+            margin: 0 0.5rem;
+        }}
+}
+
+.title-slider{
+    display: flex;
+    justify-content: center;
+    h4{
+        text-align: left;
         color: #37A2CE;
     }
 }
+.slider-div{
+img{
+    margin: 0 1rem;
+}
+ 
+}
 
-
-.slick-slide {
-    width: 240px !important;
-    margin: 0px;
-    padding: 0px !important;
-    margin-top: 2rem;
+.slider-mobile, .slider-desktop, .slider-2{
+    display: none;
 
 }
 
+@media (max-width: 1120px) {
+.slider-fixed{
+    display: none !important;
+}
+.slider-desktop{
+    display: inherit;
+}
+}
+@media (max-width: 856px) {
+    .slider-desktop{
+        display: none !important;
+    }
 
-@media (max-width: 490px){
-    .slick-slide{
-        width: 220px !important;
+    .slider-2{
+        display: inherit !important;
     }
 }
 
-
-.slick-slide:first-child {
-    margin-left: 0 !important;
+@media (max-width: 690px) {
+.slider{
+    h4{
+        font-size: 1.65rem;
+    }
 }
+}
+@media (max-width: 504px) {
+    .slider-mobile{
+        display: inherit;
+    }
 
-/* Elimina el margen derecho del último elemento */
-.slick-slide:last-child {
-    margin-right: 0 !important;
+    .slider-2{
+        display: none !important;
+    }
+     
 }

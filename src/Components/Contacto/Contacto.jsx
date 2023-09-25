@@ -6,13 +6,13 @@ const Contacto = () => {
             <div className=" container-fluid contacto">
                 <div className="row">
                     <div className="col-xl-6 img-contacto">
-                        <div clasName="">
+                        <div>
                              <img className='img-fluid' src="images/contacto/contacto.png" alt="Contacto" /> 
                         </div>
                     </div>
                     <div className="col-xl-6">
                         <form className='formulario' action="">
-                            <h3>Hablemos!</h3>
+                            <h2>¡Hablemos!</h2>
                             <div className='label-form'>
                                 <label htmlFor="">Me contacto para</label>
                                 <select required name="para" id="">

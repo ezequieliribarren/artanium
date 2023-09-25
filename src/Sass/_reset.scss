@@ -39,7 +39,7 @@ html {
 
     p {
         font-family: titilium;
-        font-size: 1.6rem;
+        font-size: 1.7rem;
     }
 
     a {
@@ -66,25 +66,33 @@ html {
     font-family: titilium-bold;
 }
 
-.p-left{
-    margin-left: 20% !important;
-}
-
 .text-center {
     text-align: center;
 }
 
-.flex-center{
+.flex-center {
     display: flex;
     justify-content: center;
+    align-items: center;
 }
 
-.flex-column-center{
+.flex-column-center {
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
+.inherit-mobile{
+    display: none;
+}
+
+.line-total{
+margin: 4rem 0;
+}
+
+.contenedor{
+    margin: 2rem;
+}
 // FONTS
 
 @font-face {
@@ -102,29 +110,46 @@ html {
 
 @media (max-width : 768px) {
 
-        h2{
-    font-size: 3.2rem !important; 
-    text-align: center;
-}
-h3{
-    font-size: 2rem !important;
-}
-
-.none-cel{
-    display: none;
-}
-
-}
-
-@media (max-width : 475px) {
-    h2{
-        font-size: 2.8rem !important; 
+    h2 {
+        font-size: 3.2rem !important;
     }
 
-    h3{
+    h3 {
+        font-size: 2rem !important;
+    }
+
+    .none-cel {
+        display: none;
+    }
+    .none-mobile{
+        display: none;
+    }
+    .inherit-mobile{
+        display: inherit;
+    }
+}
+
+@media (max-width : 570px) {
+    h2 {
+        font-size: 2.8rem !important;
+    }
+
+    h3 {
         font-size: 1.8rem !important;
     }
+
+    p{
+        font-size: 1.5rem !important;
+    }
 }
 
+@media (max-width : 460px) {
+    h2 {
+        font-size: 2.6rem !important;
+    }
 
+    h3 {
+        font-size: 1.6rem !important;
+    }
 
+}

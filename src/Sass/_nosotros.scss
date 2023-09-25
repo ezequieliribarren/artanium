@@ -2,6 +2,7 @@
     background-color: #37A2CE;
     padding-top: 8rem;
     margin-top: 6rem;
+    scroll-margin-top: 12em;
 
     h2 {
         color: white;
@@ -89,7 +90,7 @@
             left: 550% !important;
         }
 
-        p{
+        p {
             margin-top: 4rem !important;
         }
 
@@ -114,14 +115,34 @@
     }
 
 }
-
-@media (max-width: 450px) {
+@media (max-width: 565px) {
+.nosotros{
+    p, .margin-title{
+        padding: 0 2rem;
+    }
+}
+}
+@media (max-width: 505px) {
     .nosotros {
         .div-img-nosotros {
             width: 7rem !important;
 
         }
+        .box {
+            width: 13rem !important;
+            padding: 0.2rem !important;
+            height: 10rem !important;
 
+            img {
+           width: 4rem !important;
+            }
+
+            h4 {
+               font-size: 1.5rem !important;
+            }
+
+
+        }
         .img-nosotros {
             width: 7rem !important;
             left: 500% !important;
@@ -138,8 +159,7 @@
         }
 
         .img-nosotros {
-            width: 5rem !important;
-            left: 650% !important;
+display: none !important;
         }
     }
 }

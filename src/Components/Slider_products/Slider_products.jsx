@@ -1,73 +1,132 @@
-import React from 'react'
-import Slider from "react-slick";
-import "slick-carousel/slick/slick.css";
-import "slick-carousel/slick/slick-theme.css";
+import React from 'react';
+import 'react-responsive-carousel/lib/styles/carousel.min.css';
+import { Carousel } from 'react-responsive-carousel';
 
-const Slider_products = ({ img1, img2, img3, img4, img5 }) => {
-    var settings = {
-        speed: 500,
-        slidesToShow: 5,
-        slidesToScroll: 1,
-        dots: false,
-        arrows: false,
-        infinite: true,
-        responsive: [
-            {
-                breakpoint: 1300,
-                settings: {
-                  slidesToShow: 4,
-                  slidesToScroll: 1,
-                  autoplay: true,
-                  autoplaySpeed: 3000,                    
-                }
-              },
-            {
-                breakpoint: 768,
-                settings: {
-                    slidesToShow: 2,
-                    slidesToScroll: 1,
-
-                }
-            },
-            {
-                breakpoint: 450,
-                settings: {
-                    slidesToShow: 1,
-                    slidesToScroll: 1,
-
-
-                }
-            }
-        ]
-    };
-
-
-
+const SliderProducts = ({ img1, img2, img3, img4, img5, ideales }) => {
     return (
-        <div className='slider'>
+        <div className="container-fluid">
+            <div className='row slider p-5'>
+                <div className="col-12 col-md-2">
+                    <div className='title-slider'>
+                        <h4> {ideales}</h4>
+                    </div>
+                </div>
 
-            <div className='title-slider'>
-                <h4> Ideales para:</h4>
-            </div>   
-             <Slider className='slider-carousel  d-flex flex-row-reverse' {...settings}>
-                <div className='slider-div'>
-                    <img src={img1} alt="" />
+                <div className="col-12 col-md-10">
+                    <Carousel className='slider-fixed'
+                        showArrows={false}
+                        showThumbs={false}
+                        infiniteLoop={true}
+                        autoPlay={true}
+                        interval={3000}
+                        centerMode={false}
+                        showStatus={false}
+                        showIndicators={false}
+                    >
+                        <div style={{ width: '100%', display: 'flex', justifyContent: 'center' }}>
+                            <div className='slider-div' style={{ width: '190px', display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
+                                <img src={img1} alt='' />
+                                <img src={img2} alt='' />
+                                <img src={img3} alt='' />
+                                <img src={img4} alt='' />
+                                <img src={img5} alt='' />
+                            </div>
+                        </div>
+                    </Carousel>
+                    <Carousel className='slider-desktop'
+                        showArrows={false}
+                        showThumbs={false}
+                        infiniteLoop={true}
+                        autoPlay={true}
+                        interval={3000}
+                        centerMode={false}
+                        showStatus={false}
+                        showIndicators={false}
+                    >
+                        <div style={{ width: '100%', display: 'flex', justifyContent: 'center' }}>
+                            <div className='slider-div' style={{ width: '200px', display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
+                                <img src={img1} alt='' />
+                                <img src={img2} alt='' />
+                                <img src={img3} alt='' />
+                            </div>
+                        </div>
+                        <div style={{ width: '100%', display: 'flex', justifyContent: 'center' }}>
+                            <div className='slider-div' style={{ width: '200px', display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
+                                <img src={img5} alt='' />
+                                <img src={img4} alt='' />
+                            </div>
+                        </div>
+                    </Carousel>
+                    <Carousel className='slider-2'
+                        showArrows={false}
+                        showThumbs={false}
+                        infiniteLoop={true}
+                        autoPlay={true}
+                        interval={3000}
+                        centerMode={false}
+                        showStatus={false}
+                        showIndicators={false}
+                    >
+                        <div style={{ width: '100%', display: 'flex', justifyContent: 'center' }}>
+                            <div className='slider-div' style={{ width: '200px', display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
+                                <img src={img1} alt='' />
+                                <img src={img2} alt='' />
+                            </div>
+                        </div>
+                        <div style={{ width: '100%', display: 'flex', justifyContent: 'center' }}>
+                            <div className='slider-div' style={{ width: '200px', display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
+                                <img src={img3} alt='' />
+                                <img src={img4} alt='' />
+                            </div>
+                        </div>
+                        <div style={{ width: '100%', display: 'flex', justifyContent: 'center' }}>
+                            <div className='slider-div' style={{ width: '200px', display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
+                                <img src={img5} alt='' />
+                            </div>
+                        </div>
+                    </Carousel>
+                    <Carousel className='slider-mobile'
+                        showArrows={false}
+                        showThumbs={false}
+                        infiniteLoop={true}
+                        autoPlay={true}
+                        interval={3000}
+                        centerMode={false}
+                        showStatus={false}
+                        showIndicators={false}
+                    >
+                        <div style={{ width: '100%', display: 'flex', justifyContent: 'center' }}>
+                            <div className='slider-div' style={{ width: '200px', display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
+                                <img src={img1} alt='' />
+                            </div>
+                        </div>
+                        <div style={{ width: '100%', display: 'flex', justifyContent: 'center' }}>
+                            <div className='slider-div' style={{ width: '200px', display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
+                                <img src={img2} alt='' />
+                            </div>
+                        </div>
+                        <div style={{ width: '100%', display: 'flex', justifyContent: 'center' }}>
+                            <div className='slider-div' style={{ width: '200px', display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
+                                <img src={img3} alt='' />
+                            </div>
+                        </div>
+                        <div style={{ width: '100%', display: 'flex', justifyContent: 'center' }}>
+                            <div className='slider-div' style={{ width: '200px', display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
+                                <img src={img4} alt='' />
+                            </div>
+                        </div>
+                        <div style={{ width: '100%', display: 'flex', justifyContent: 'center' }}>
+                            <div className='slider-div' style={{ width: '200px', display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
+                                <img src={img5} alt='' />
+                            </div>
+                        </div>
+                    </Carousel>
                 </div>
-                <div className='slider-div'>
-                    <img src={img2} alt="" />
-                </div>
-                <div className='slider-div'>
-                    <img src={img3} alt="" />
-                </div>
-                <div className='slider-div'>
-                    <img src={img4} alt="" />
-                </div>
-                <div className='slider-div'>
-                    <img src={img5} alt="" />
-                </div>
-            </Slider>
+
+            </div>
         </div>
-    )
-}
 
-export default Slider_products
+    );
+};
+
+export default SliderProducts;

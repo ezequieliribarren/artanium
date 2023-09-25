@@ -2,7 +2,7 @@ import React from 'react'
 
 const TopProducts = ({ title, subtitle, p, li1, li2, li3, li4, li5, li6, li7, clase1, clase2 }) => {
   return (
-    <div className='top-products p-3'>
+       <div className='top-products p-3'>
       <div className="row">
         <div className={clase1}>
           <h2>{title}</h2>
@@ -10,7 +10,7 @@ const TopProducts = ({ title, subtitle, p, li1, li2, li3, li4, li5, li6, li7, cl
           <p>{p}</p>
         </div>
         <div className={clase2}>
-          <ul className='caracteristicas'>
+          <ul className='caracteristicas caracteristicas-resinado'>
               {li1}
               {li2}
               {li3}
@@ -21,7 +21,7 @@ const TopProducts = ({ title, subtitle, p, li1, li2, li3, li4, li5, li6, li7, cl
           </ul>
         </div>
       </div>
-    </div>
+    </div> 
   )
 }
 

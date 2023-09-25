@@ -6,16 +6,17 @@ import Ul_azul from '../Ul_azul/Ul_azul';
 
 const Dtf_products = () => {
   return (
-    <section id='dtf-products'>
+    <>
       {dtf.map((dtf) => (
-        <div className="row products">
+        <section className="row" id={dtf.section}>
           <Separador2 titulo={dtf.titulo} subtitulo={dtf.subtitulo}/>
           <div className="row dtf-columns">
             <div className="col-lg-6">
-              <img src={dtf.img} alt="" />
+              <img className='img-fluid' src={dtf.img} alt="" />
             </div>
-            <div className='col-lg-6'>
+            <div className='col-lg-6 right'>
               <div className='products-subtitles'>
+                <img src={dtf.imgtop} alt="" />
                 <h4>{dtf.subtitulo1}</h4>
               </div>
               <div className={dtf.line}></div>
@@ -23,12 +24,8 @@ const Dtf_products = () => {
               <div className={dtf.line}></div>
             </div>
           </div>
-
-
-
-
-        </div>))}
-    </section>
+        </section>))}
+    </>
   )
 }
 

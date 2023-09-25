@@ -1,33 +1,33 @@
 #contacto {
     margin-bottom: 4rem;
+    scroll-margin-top: 14em;
 
     .contacto {
         margin-top: 5rem;
-    display: flex;
-    justify-content: center;
+        display: flex;
+        justify-content: center;
+
         .img-contacto {
             display: flex;
             justify-content: center;
             align-items: center;
-            width: 70rem ;
+            width: 70rem;
 
             img {
-                width: 100% ;
+                width: 100%;
             }
         }
     }
 
 
 
-    h3 {
-        font-family: titilium-bold;
-        color: #37A2CE;
-        margin-top: 4rem;
-        margin-bottom: 2rem;
+    h2 {
+        margin-bottom: 3rem;
     }
 
     .formulario {
-width: 100%;
+        width: 100%;
+
         input,
         select {
             border-radius: 50px;
@@ -118,55 +118,44 @@ width: 100%;
 }
 
 @media (max-width: 1200px) {
-.contacto{
-    .row{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    }
-
-    .img-contacto {
-      width: 80% !important; 
-    
-    }
-
-    .formulario{
-        input,
-         select {
-             height: 5.4rem;
-             width: 100% !important;
-             margin: 0.5rem 0;
-             font-size: 1.4rem;
-         }
-     
-     
-         textarea {
-             width: 100% !important;
-             height: 20rem;
-         }   
-
-         .label-form{
+    .contacto {
+        .row {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
             width: 100%;
-            input{
-                width: 100%;
-            }
-         }
-     }
-
-}
-}
-
-@media (max-width: 455px) {
-
-    .img-contacto {
-        display: flex;
-        justify-content: center;
-
-        img {
-            display: none;
         }
+
+        .img-contacto{
+            img{
+                display: none !important;
+            }
+        }
+
+
+        .formulario {
+            input,
+            select {
+                height: 5.4rem;
+                width: 100% !important;
+                margin: 0.5rem 0;
+                font-size: 1.4rem;
+            }
+
+
+            textarea {
+                width: 100% !important;
+                height: 20rem;
+            }
+
+            .label-form {
+                width: 100%;
+
+                input {
+                    width: 100%;
+                }
+            }
+        }
+
     }
-
-  
-
 }

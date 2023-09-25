@@ -1,4 +1,12 @@
 // DTF
+#film-dtf,
+#polvo-dtf {
+    scroll-margin-top: 12em;
+}
+
+#tinta-dtf {
+    scroll-margin-top: 6em;
+}
 
 #dtf-products {
     .col-lg-4 {
@@ -13,20 +21,62 @@
     h4 {
         color: #37A2CE;
     }
+}
 
-    .dtf-columns {
-      
-            display: flex;
-            align-items: center;
-            margin-top: 4rem;
+.dtf-columns {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-left: 7%;
+    margin-top: 3rem !important;
 
-            .col-lg-6 {
-                padding-left: 7%;
-            }
+    .right {
+        margin-top: 3.5rem;
+
+        .ul-subli {
+            margin: 1rem 1rem;
+        }
+    }
+
+    .col-lg-6 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        img {
+            padding-right: 0.5rem;
         }
 
+        .title-products {
+            display: flex;
+            justify-content: center;
+        }
 
+        .products-subtitles {
+            display: flex;
+            align-items: center;
+            justify-content: center;
 
+            h4 {
+                color: #37A2CE;
+                font-family: titilium-bold;
+            }
 
-
+        }
     }
+
+}
+
+
+@media (max-width: 720px) {
+    .dtf-columns {
+        .products-subtitles {
+            flex-direction: column;
+
+            img {
+                width: 7rem;
+                margin-bottom: 1rem;
+            }
+        }
+    }
+}

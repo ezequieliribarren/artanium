@@ -17,41 +17,6 @@
         text-align: center;
     }
 
-    .forma-parte {
-        h2 {
-            color: white;
-            padding-top: 6rem;
-            text-align: center;
-        }
-
-        p {
-            padding: 0 2rem;
-            color: white;
-        }
-
-        background-color: #37A2CE;
-
-        .button-forma-parte {
-            display: flex;
-            justify-content: center;
-        }
-
-        .redes-distribuidores {
-            display: flex;
-            justify-content: center;
-            padding-bottom: 2rem;
-
-        }
-
-        button {
-            height: 5rem;
-            margin: 2rem 0;
-        }
-
-        a {
-            margin: 0 1.5rem;
-        }
-    }
 
     .distribuidores-logos {
         margin-bottom: 5rem;
@@ -71,6 +36,7 @@
     }
 }
 
+
 @media (max-width: 455px) {
 
     .buttons-distribuidores{
@@ -87,12 +53,64 @@
 }
 
 
+// FORMA PARTE
+
+.forma-parte {
+    h2 {
+        color: white;
+        padding-top: 6rem;
+        text-align: center;
+    }
+
+    p {
+        padding: 0 2rem;
+        margin-top: 2rem;
+        color: white;
+    }
+
+    background-color: #37A2CE;
+
+    .button-forma-parte {
+        display: flex;
+        justify-content: center;
+    }
+
+    .redes-distribuidores {
+        display: flex;
+        justify-content: center;
+        padding-bottom: 2rem;
+        margin-top: 1.5rem;
+
+    }
+
+    button {
+        height: 5rem;
+        margin: 2rem 0;
+    }
+
+    a {
+        margin: 0 1.5rem;
+    }
+}
 
 // SER DISTRIBUIDOR
 
 #ser-distribuidor{
     background-color: #EDF6FB ;
+    padding: 5rem 0;
     p{
         margin: 4rem 0;
     }
+}
+
+@media (max-width: 570px) {
+    #ser-distribuidor{    
+        padding: 5rem 4rem;
+        p{
+            margin: 4rem 0;
+
+        
+        }
+    }
+
 }
