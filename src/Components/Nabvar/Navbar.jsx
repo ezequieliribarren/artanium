@@ -12,7 +12,16 @@ const Navbar = () => {
         setIsMenuOpen(!isMenuOpen);
     };
 
-    
+    const scrollToSection = (sectionId) => {
+        const section = document.getElementById(sectionId);
+        if (section) {
+          window.scrollTo({
+            top: section.offsetTop,
+            behavior: 'smooth', // Desplazamiento suave
+          });
+        }
+      };
+
 
     return (
         <>
@@ -43,10 +52,14 @@ const Navbar = () => {
                                 </Link>
                             </li>
                             <li className="nav-item">
-                                <a className="nav-link">Donde Comprar</a>
+                                <Link className="nav-link" to="/en-construccion">
+                                    Donde Comprar
+                                </Link>
                             </li>
                             <li className="nav-item">
-                                <a className="nav-link">Comunidad</a>
+                                <Link className="nav-link" to="/en-construccion">
+                                    Comunidad
+                                </Link>
                             </li>
                             <li className="nav-item">
                                 <Link className="nav-link" to="/ser-distribuidor">
@@ -63,7 +76,7 @@ const Navbar = () => {
                 </div>
                 <nav className="navbar navbar-expand-lg bg-light nav2 ">
                     <div className="container-fluid ">
-                        <a className="navbar-brand px-5 nuestros-insumos" href="#">Nuestros insumos :</a>
+                        <a className="navbar-brand px-5 nuestros-insumos">Nuestros insumos :</a>
                         <ul className="navbar-nav flex-row">
                             <li className="nav-item dropdown">
                                 <a className="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
@@ -81,9 +94,14 @@ const Navbar = () => {
                                     <li><Link className="nav-link" smooth to="/fotografico/#fotografico-mate">
                                         Fotográfico Mate
                                     </Link></li>
-                                    <li><Link className='nav-link' smooth to="/fotografico/#fotografico-glossy">
-                                        Fotográfico Glossy
-                                    </Link></li>
+                                    <li>
+          <button
+            className="nav-link" // Utiliza un botón o elemento que desees
+            onClick={() => scrollToSection('fotografico-glossy')}
+          >
+            Fotográfico Glossy
+          </button>
+        </li>
                                     <li><Link className="nav-link" smooth to='/fotografico/#fotografico-resinado'>
                                         Fotográfico Resinado
                                     </Link></li>

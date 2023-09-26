@@ -6,15 +6,15 @@ const Fotografico_autoadhesivo = () => {
   return (
     <section id='fotografico-autoadhesivo'>
 
-      <TopProducts title="Papel Fotográfico Autoadhesivo" subtitle="Alta definición." p="Nuestros autoadhesivoes autoadhesivos con calidad fotográfica vienen en dos terminaciones superficiales y varios formatos." li3={<li><strong>Secado<br />Rápido.</strong></li>} li4={<li><strong>Resistente<br />al Agua.</strong></li>} li1={<li><strong>Alta <br />Resolución.</strong></li>} clase1="col-lg-6 detail" clase2="col-lg-6 description" />
+      <TopProducts title="Papel Fotográfico Autoadhesivo" subtitle="Alta definición." p="Nuestros autoadhesivoes autoadhesivos con calidad fotográfica vienen en dos terminaciones superficiales y varios formatos." li3={<li><strong>Secado<br />Rápido.</strong></li>} li4={<li><strong>Resistente<br />al Agua.</strong></li>} li1={<li><strong>Alta <br />Resolución.</strong></li>} clase1="col-lg-6 detail" clase2="col-lg-6 description" caracteristicas="caracteristicas" />
 
       {autoadhesivos.map((autoadhesivo) => (
         <div className="row products">
-          <div className="row">
+          <div className="row contenedor">
             <div className="col-lg-6">
               <img className='img-fluid' src={autoadhesivo.img} alt="Papeles" />
             </div>
-            <div className='col-lg-6'>
+            <div className='col-lg-6 right'>
               <div className='products-subtitles'>
                 <h4>{autoadhesivo.subtitulo}</h4>
               </div>

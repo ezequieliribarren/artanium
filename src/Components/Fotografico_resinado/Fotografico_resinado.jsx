@@ -5,16 +5,16 @@ import { resinados } from '../../js/fotografico';
 const Fotografico_resinado = () => {
   return (
     <section id='fotografico-resinado'>
-{/* FOTOGRAFICO RESINADO  */}
-<TopProducts title="Papel Fotográfico Resinado" subtitle="Excelente calidad, perdurable en el tiempo." p="Nuestros resinadoes fotográficos resinados te permitirán llevar tus fotografías e impresiones a otro nivel. Vienen en 3 variantes según la terminación de su superficie, ofreciendo características estéticas y funcionales diversas que pueden adaptarse a diferentes tipos de imágenes y proyectos." li3={<li><strong>Superficie<br />Anti Huella</strong></li>} li2={<li><strong>Secado<br />Rápido.</strong></li>} li4={<li><strong>Resistente<br />al Agua.</strong></li>} li1={<li><strong>Alta <br />Resolución.</strong></li>} li5={<li><strong>Dorso<br />Suave</strong></li>} li6={<li><strong>Alta <br />Durabilidad.</strong></li>} li7={<li><strong>Grán<br />Flexibilidad</strong></li>} clase1="col-xl-6 detail" clase2= "col-xl-6 description"/>
+      {/* FOTOGRAFICO RESINADO  */}
+      <TopProducts title="Papel Fotográfico Resinado" subtitle="Excelente calidad, perdurable en el tiempo." p="Nuestros resinadoes fotográficos resinados te permitirán llevar tus fotografías e impresiones a otro nivel. Vienen en 3 variantes según la terminación de su superficie, ofreciendo características estéticas y funcionales diversas que pueden adaptarse a diferentes tipos de imágenes y proyectos." li3={<li className='none-resinado'><strong>Superficie<br />Anti Huella</strong></li>} li2={<li className='none-resinado'><strong>Secado<br />Rápido</strong></li>} li4={<li><strong>Resistente<br />al Agua</strong></li>} li1={<li><strong>Alta <br />Resolución.</strong></li>} li5={<li className='none-resinado'><strong>Dorso<br />Suave</strong></li>} li6={<li><strong>Alta <br />Durabilidad.</strong></li>} li7={<li><strong>Grán<br />Flexibilidad</strong></li>} clase1="col-xl-6 detail" clase2="col-xl-6 description" caracteristicas="caracteristicas-resinado" />
 
-{resinados.map((resinado) => (
+      {resinados.map((resinado) => (
         <div className="row products">
           <div className="row contenedor">
-            <div className="col-lg-6 img-products"> 
-              <img className='img-fluid'  src={resinado.img} alt="Papeles" />
+            <div className="col-lg-6 img-products">
+              <img className='img-fluid' src={resinado.img} alt="Papeles" />
             </div>
-            <div className='col-lg-6'>
+            <div className='col-lg-6 right'>
               <div className='products-subtitles'>
                 <h4>{resinado.subtitulo}</h4>
               </div>
@@ -45,7 +45,6 @@ const Fotografico_resinado = () => {
             </div>
           </div>
         </div>))}
-
 
     </section>
   )

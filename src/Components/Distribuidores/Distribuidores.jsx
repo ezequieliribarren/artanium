@@ -1,4 +1,5 @@
 import React from 'react'
+import { HashLink as Link } from 'react-router-hash-link';
 
 const Distribuidores = () => {
   return (
@@ -16,8 +17,12 @@ const Distribuidores = () => {
     </div>
         <div className="row action-distribuidores">
           <div className='buttons-distribuidores'>
-            <button className='button-celeste'>Ser Distribuidor</button>
-            <button>Donde Comprar</button>
+          <Link className="nav-link" to="/en-construccion">
+             <button>Ser distribuidor</button>   
+                                </Link>
+             <Link className="nav-link" to="/en-construccion">
+             <button>Donde Comprar</button>   
+                                </Link>
           </div>
         </div>
       </div>

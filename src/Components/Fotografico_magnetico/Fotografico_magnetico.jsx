@@ -5,15 +5,15 @@ import { magneticos } from '../../js/fotografico';
 const Fotografico_magnetico = () => {
   return (
     <section id='fotografico-magnetico'>
-      <TopProducts title="Papel Fotográfico Magnético" subtitle="Alta definición." p="Nuestros magneticoes magnéticos con calidad fotográfica vienen en dos terminaciones superficiales." li2={<li><strong>Secado<br />Rápido.</strong></li>} li3={<li><strong>Resistente<br />al Agua.</strong></li>} li4={<li><strong>Alta <br />Resolución.</strong></li>} clase1="col-lg-6 detail" clase2="col-lg-6 description" />
+      <TopProducts title="Papel Fotográfico Magnético" subtitle="Alta definición." p="Nuestros magneticoes magnéticos con calidad fotográfica vienen en dos terminaciones superficiales." li2={<li><strong>Secado<br />Rápido.</strong></li>} li3={<li><strong>Resistente<br />al Agua.</strong></li>} li4={<li><strong>Alta <br />Resolución.</strong></li>} clase1="col-lg-6 detail" clase2="col-lg-6 description" caracteristicas="caracteristicas" />
 
       {magneticos.map((magnetico) => (
         <div className="row products">
-          <div className="row">
+          <div className="row contenedor">
             <div className="col-lg-6">
               <img className='img-fluid' src={magnetico.img} alt="Papeles" />
             </div>
-            <div className='col-lg-6'>
+            <div className='col-lg-6 right'>
               <div className='products-subtitles'>
                 {magnetico.subtitulo1}<h4>{magnetico.subtitulo}</h4>{magnetico.subtitulo2}
               </div>

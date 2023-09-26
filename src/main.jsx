@@ -9,6 +9,7 @@ import Transfer from './Routes/Transfer';
 import Fotografico from './Routes/Fotografico';
 import Ser_distribuidor from './Routes/Ser_distribuidor';
 import Donde_comprar from './Routes/Donde_comprar';
+import EnConstruccion from './Routes/EnConstruccion';
 
 const router = createHashRouter([
   {
@@ -38,6 +39,10 @@ const router = createHashRouter([
   {
     path: "/donde-comprar",
     element: <Donde_comprar/>
+  },
+  {
+    path: "/en-construccion",
+    element: <EnConstruccion/>
   },
 ])
 

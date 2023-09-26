@@ -6,7 +6,7 @@ import Slider_products from '../Slider_products/Slider_products';
 const Fotografico_glossy = () => {
   return (
     <section id='fotografico-glossy'>
-   <TopProducts title="Papel Fotográfico Glossy" subtitle="Transferencia óptima / alta definición." p="Nuestros papeles fotográficos glossy no dejan huella. Viene en varios formatos y gramajes para adaptarse a tus proyectos." li1={<li><strong>Terminación<br />Brillante.</strong></li>} li2={<li><strong>Secado<br />Instantáneo.</strong></li>} li3={<li><strong>Resistente<br />al Agua.</strong></li>} li4={<li><strong>Alta <br />Resolución.</strong></li>} clase1="col-lg-6 detail" clase2= "col-lg-6 description"  />
+   <TopProducts title="Papel Fotográfico Glossy" subtitle="Transferencia óptima / alta definición." p="Nuestros papeles fotográficos glossy no dejan huella. Viene en varios formatos y gramajes para adaptarse a tus proyectos." li1={<li><strong>Terminación<br />Brillante.</strong></li>} li2={<li><strong>Secado<br />Instantáneo.</strong></li>} li3={<li><strong>Resistente<br />al Agua.</strong></li>} li4={<li><strong>Alta <br />Resolución.</strong></li>} clase1="col-lg-6 detail" clase2= "col-lg-6 description" caracteristicas="caracteristicas"  />
       
 
       <div className='flex-column-center'>

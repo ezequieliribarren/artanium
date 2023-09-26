@@ -7,7 +7,7 @@ const Fotografico_mate = () => {
     <section id='fotografico-mate'>
 
 {/* FOTOGRAFICO MATE */}
-      <TopProducts title="Papel Fotográfico Mate" subtitle="Transferencia óptima / alta definición." p="Lográ plenos parejos con nuestro papel fotográfico mate. Viene en varios formatos y gramajes para adaptarse a tus proyectos." li1={<li><strong>Terminación<br />mate</strong></li>} li2={<li><strong>Secado<br />Instantáneo.</strong></li>} li3={<li><strong>Resistente<br />al Agua.</strong></li>} li4={<li><strong>Alta <br />Resolución.</strong></li>} clase1="col-lg-6 detail" clase2= "col-lg-6 description" />
+      <TopProducts title="Papel Fotográfico Mate" subtitle="Transferencia óptima / alta definición." p="Lográ plenos parejos con nuestro papel fotográfico mate. Viene en varios formatos y gramajes para adaptarse a tus proyectos." li1={<li><strong>Terminación<br />mate</strong></li>} li2={<li><strong>Secado<br />Instantáneo.</strong></li>} li3={<li><strong>Resistente<br />al Agua.</strong></li>} li4={<li><strong>Alta <br />Resolución.</strong></li>} clase1="col-lg-6 detail" clase2= "col-lg-6 description" caracteristicas="caracteristicas" />
 
     
 

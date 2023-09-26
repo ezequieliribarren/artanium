@@ -1,5 +1,5 @@
 import React from 'react'
-import { Link } from 'react-router-dom'
+import { HashLink as Link } from 'react-router-hash-link';
 
 const Footer = () => {
   return (
@@ -24,8 +24,12 @@ const Footer = () => {
               <Link to="/transfer">
                 Transfer
               </Link>
-              <a href="">Ink Jet</a>
-              <a href="">DTF</a>
+              <Link to="/fotografico">
+                Ink jet
+              </Link>
+              <Link to="/dtf">
+                DTF
+              </Link>
             </div>
             <div>
 
@@ -34,20 +38,25 @@ const Footer = () => {
           <div className="col-6 col-sm-3 col-md-2">
             <div className='links'>
               <h4>Nosotros</h4>
-              <a href="">Sobre Nosotros</a>
+              <Link smooth to="/#nosotros">
+                Sobre Nosotros
+              </Link>
             </div>
           </div>
           <div className="col-6 col-sm-3 col-md-2">
             <div className='links'>
               <h4>Comunidad</h4>
-              <a href="">Blog</a>
-
+              <Link className="nav-link" to="/en-construccion">
+                Blog
+              </Link>
             </div>
           </div>
           <div className="col-6 col-sm-3 col-md-2">
             <div className='links'>
               <h4>Contacto</h4>
-              <a href="">Formulario</a>
+              <Link smooth to="/#contacto">
+                Formulario
+              </Link>
             </div>
           </div>
         </div>

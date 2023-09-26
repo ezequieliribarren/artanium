@@ -5,6 +5,25 @@
 #fotografico-resinado,
 #fotografico-autoadhesivo {
     scroll-margin-top: 14em !important;
+
+    .contenedor{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        .col-lg-6{
+            display: flex;
+            justify-content: center;
+        }
+
+        .img-fluid{
+            width: 650px;
+        }
+
+        .right{
+            margin-top: 7.5rem !important;
+        }
+    }
 }
 
 #tintas-sublimacion,
@@ -43,7 +62,7 @@
     .description {
         padding: 0;
 
-        .caracteristicas {
+        .caracteristicas, .caracteristicas-resinado {
             display: flex;
             align-items: center;
             background-color: #B5DBEC;
@@ -56,17 +75,20 @@
 
             li {
                 margin: 1.3rem;
+                font-size: 1.7rem;
             }
-        }
-    }
-
-    .caracteristicas-resinado {
+        }  
+        
+        .caracteristicas-resinado {
         li {
             font-size: 1.45rem;
-            margin: 0 0.8rem !important;
+            margin: 0 0.8rem;
         }
     }
 
+    }
+
+  
     .icons {
         display: flex;
         align-items: center;
@@ -239,6 +261,7 @@
 .cols-transfer {
     margin: 5rem 0;
 
+
     .right {
         margin-top: 7rem;
     }
@@ -374,15 +397,6 @@
 
 }
 
-@media (max-width : 1200px) {
-    .caracteristicas-resinado {
-        li {
-            font-size: 1.6rem !important;
-            margin: 1rem !important;
-        }
-
-    }
-}
 
 @media (max-width: 991px) {
     .description {
@@ -460,6 +474,18 @@
     .img-top-transfer {
         margin-top: 3rem;
     }
+
+    .cols-transfer{
+        .right{
+            margin-top: 1.5rem !important;
+        }
+        .col-lg-6{   align-items: center;
+            .img-fluid{
+                width: 700px;
+             
+            }
+        }
+    }
 }
 
 @media (max-width: 800px) {
@@ -468,15 +494,21 @@
             font-size: 1.5rem;
         }
     }
+  
+}
+
+@media (max-width: 768px){
+    #fotografico-glossy{
+        .flex-column-center{
+        .img-fluid{
+                  width: 550px !important;
+      }
+  }
+    }
+    
 }
 
 @media (max-width: 720px) {
-    .caracteristicas {
-        li {
-            font-size: 1.6rem;
-        }
-    }
-
     .products-subtitles {
         img {
             width: 4.5rem;
@@ -486,10 +518,31 @@
             width: 3rem;
         }
     }
-}
+
+        .caracteristicas-resinado {
+            li {
+                font-size: 1.3rem !important;
+                margin: 0 0.6rem !important;
+            }
+            
+        }
+    }
+
 
 @media (max-width : 580px) {
+    .caracteristicas {
+        li {
+            font-size: 1.4rem !important;
+        }
+    }
 
+    .caracteristicas-resinado {
+        li {
+            font-size: 1.15rem !important;
+            margin: 0 0.4rem !important;
+        }
+        
+    }
     .products,
     .product-azul {
 
@@ -542,8 +595,22 @@
     }
 }
 
-@media (max-width : 460px) {
+@media (max-width : 487px) {
+    .caracteristicas {
 
+        li {
+            font-size: 1.15rem !important;
+        }
+    }
+
+    .caracteristicas-resinado {
+  
+
+        .none-resinado{
+            display: none;
+        }
+        
+    }
 
     .products-subtitles {
         h4 {
@@ -556,7 +623,7 @@
             height: 110px !important;
 
             li {
-                font-size: 1.2rem;
+                font-size: 1.15rem;
             }
         }
     }
@@ -579,12 +646,18 @@
 
                 height: 7rem !important;
             }
+
+            .products-c{
+                img{
+                    width: 3.5rem !important;
+                }
+            }
             
         }
     }
 }
 
-@media (max-width: 395px) {
+@media (max-width: 410px) {
 
     .caracteristicas {
 
@@ -594,6 +667,12 @@
         }
     }
 
+    .caracteristicas-resinado {
+        li {
+            font-size: 1rem !important;
+            margin: 0 0.3rem !important;
+        }
+    }
     .products,
     .product-azul {
 
@@ -627,6 +706,16 @@
 
         .img-ycmn {
             width: 9rem;
+        }
+    }
+}
+
+@media (max-width: 341px) {
+    .caracteristicas {
+
+        li {
+            font-size: 1.05rem !important;
+            margin: 0 0.2rem !important;
         }
     }
 }

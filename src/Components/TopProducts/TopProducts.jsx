@@ -1,6 +1,6 @@
 import React from 'react'
 
-const TopProducts = ({ title, subtitle, p, li1, li2, li3, li4, li5, li6, li7, clase1, clase2 }) => {
+const TopProducts = ({ title, subtitle, p, li1, li2, li3, li4, li5, li6, li7, clase1, clase2, caracteristicas }) => {
   return (
        <div className='top-products p-3'>
       <div className="row">
@@ -10,7 +10,7 @@ const TopProducts = ({ title, subtitle, p, li1, li2, li3, li4, li5, li6, li7, cl
           <p>{p}</p>
         </div>
         <div className={clase2}>
-          <ul className='caracteristicas caracteristicas-resinado'>
+          <ul className={caracteristicas}>
               {li1}
               {li2}
               {li3}
