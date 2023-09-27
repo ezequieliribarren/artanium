@@ -17,10 +17,10 @@ const Distribuidores = () => {
     </div>
         <div className="row action-distribuidores">
           <div className='buttons-distribuidores'>
-          <Link className="nav-link" to="/en-construccion">
+          <Link to="/en-construccion">
              <button>Ser distribuidor</button>   
                                 </Link>
-             <Link className="nav-link" to="/en-construccion">
+             <Link to="/en-construccion">
              <button>Donde Comprar</button>   
                                 </Link>
           </div>
