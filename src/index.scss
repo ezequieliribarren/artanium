@@ -1,22 +1,22 @@
 // Home
-@use './sass/reset';
-@use './sass/navbar';
-@use './sass/header';
-@use './sass/productos';
-@use './sass/nosotros';
-@use './sass/distribuidores';
-@use './sass/contacto';
-@use './sass/footer';
+@use './sass/reset.scss';
+@use './sass/navbar.scss';
+@use './sass/header.scss';
+@use './sass/productos.scss';
+@use './sass/nosotros.scss';
+@use './sass/distribuidores.scss';
+@use './sass/contacto.scss';
+@use './sass/footer.scss';
 
 // Routes
-@use './sass/products';
-@use './sass/dtf';
-@use './sass/transfer';
+@use './sass/products.scss';
+@use './sass/dtf.scss';
+@use './sass/transfer.scss';
 
 // Components
-@use './sass/callaction';
-@use './sass/separador';
-@use './sass/topproducts';
-@use './sass/buttons';
-@use './sass/slider';
+@use './sass/callaction.scss';
+@use './sass/separador.scss';
+@use './sass/topproducts.scss';
+@use './sass/buttons.scss';
+@use './sass/slider.scss';
 
