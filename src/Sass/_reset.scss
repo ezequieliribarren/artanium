@@ -82,17 +82,18 @@ html {
     align-items: center;
 }
 
-.inherit-mobile{
+.inherit-mobile {
     display: none;
 }
 
-.line-total{
-margin: 4rem 0;
+.line-total {
+    margin: 4rem 0;
 }
 
-.contenedor{
+.contenedor {
     margin: 2rem;
 }
+
 // FONTS
 
 @font-face {
@@ -109,7 +110,7 @@ margin: 4rem 0;
 
 // CONSTRUCCION
 
-.construccion{
+.construccion {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -117,13 +118,69 @@ margin: 4rem 0;
     width: 100vh;
     padding-top: 13rem;
 
-    div{
+    div {
         margin: 1.5rem;
 
-        img{
+        img {
             width: 45rem;
         }
     }
+}
+
+// BUSCADOR
+.buscador {
+    position: relative;
+    /* Asegura que los resultados sean relativos a este contenedor */
+    width: 100%;
+    display: flex;
+    justify-content: right;
+    padding-right: 1%;
+    margin-top: 5rem;
+}
+
+input {
+    width: 250px;
+    height: 40px;
+    flex-shrink: 0;
+    border-radius: 20px;
+    border: 2px solid #B9B9B9;
+}
+
+input::placeholder {
+    padding-left: 1rem;
+    font-size: 1.4rem;
+    font-family: titilium;
+}
+
+#listaArticulos {
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    position: absolute;
+    /* Coloca los resultados en posición absoluta */
+    top: 100%;
+    /* Coloca los resultados justo debajo del input */
+    left: 0;
+    right: 0;
+    background: linear-gradient(to left, #EDF6FB, #ffffff00, #ffffff00);
+    z-index: 1000;
+    /* Un valor alto para superponerse a otros elementos */
+}
+
+.enlace-buscador {
+    display: block;
+    text-align: center;
+    margin: 5px 0;
+    text-decoration: none;
+    color: #333;
+    transition: color 0.3s ease;
+    padding-right: 2.5%;
+    font-family: titilium-bold !important;
+    font-size: 2rem !important;
+}
+
+.enlace-buscador:hover {
+    color: #007BFF;
 }
 
 
@@ -140,10 +197,12 @@ margin: 4rem 0;
     .none-cel {
         display: none;
     }
-    .none-mobile{
+
+    .none-mobile {
         display: none;
     }
-    .inherit-mobile{
+
+    .inherit-mobile {
         display: inherit;
     }
 }
@@ -157,7 +216,7 @@ margin: 4rem 0;
         font-size: 1.8rem !important;
     }
 
-    p{
+    p {
         font-size: 1.5rem !important;
     }
 }

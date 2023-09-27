@@ -7,6 +7,7 @@ import Header from '../Components/Header/Header'
 import Contacto from '../Components/Contacto/Contacto'
 import Forma_parte from '../Components/Forma_parte/Forma_parte'
 
+
 const Root = () => {
   useEffect(() => {
     window.scrollTo(0, 0); 
@@ -15,6 +16,7 @@ const Root = () => {
     <>
       <Layout>
         <Header />
+
         <Productos />
         <Nosotros />
         <Distribuidores />
