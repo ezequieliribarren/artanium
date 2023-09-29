@@ -19,6 +19,7 @@ const Fotografico = () => {
   useEffect(() => {
     window.scrollTo(0, 0);
   }, []);
+  
   return (
     <Layout>
       <Hero image="images/fotografico/header.png" tablet="images/fotografico/header-tablet.png" mobile="images/fotografico/header-mobile.png" />

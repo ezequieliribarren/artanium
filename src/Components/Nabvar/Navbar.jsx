@@ -3,24 +3,30 @@ import "bootstrap/dist/css/bootstrap.min.css"
 import "bootstrap/dist/js/bootstrap.bundle"
 import { HashLink as Link } from 'react-router-hash-link';
 import React, { useState } from 'react';
+import { scroller } from 'react-scroll';
 
 const Navbar = () => {
-
     const [isMenuOpen, setIsMenuOpen] = useState(false);
 
     const toggleMenu = () => {
         setIsMenuOpen(!isMenuOpen);
     };
 
-    const scrollToSection = (sectionId) => {
-        const section = document.getElementById(sectionId);
-        if (section) {
-          window.scrollTo({
-            top: section.offsetTop,
-            behavior: 'smooth', // Desplazamiento suave
-          });
-        }
-      };
+    const handleScrollToSection = (id) => {
+        setTimeout(() => {
+            scrollToSection(id);
+        }, 100);
+        handleCloseClick();
+    };
+
+    const scrollToSection = (id) => {
+        scroller.scrollTo(id, {
+            duration: 400,
+            offset: -130,
+            smooth: true,
+        });
+    };
+
 
 
     return (
@@ -84,49 +90,86 @@ const Navbar = () => {
                                 </a>
                                 <ul className="dropdown-menu">
                                     <li>
-                                        <Link className="nav-link" smooth to='/sublimacion/#papeles-sublimacion'>
+                                        <Link className="nav-link" to="/sublimacion" onClick={() => handleScrollToSection('papeles-sublimacion')}>
+
                                             Sublimación
+
                                         </Link>
                                     </li>
-                                    <li><Link className="nav-link" smooth to="/transfer/#papeles-transfer">
-                                        Transfer
-                                    </Link></li>
-                                    <li><Link className="nav-link" smooth to="/fotografico/#fotografico-mate">
-                                        Fotográfico Mate
-                                    </Link></li>
                                     <li>
-          <button
-            className="nav-link" // Utiliza un botón o elemento que desees
-            onClick={() => scrollToSection('fotografico-glossy')}
-          >
-            Fotográfico Glossy
-          </button>
-        </li>
-                                    <li><Link className="nav-link" smooth to='/fotografico/#fotografico-resinado'>
-                                        Fotográfico Resinado
-                                    </Link></li>
-                                    <li><Link className="nav-link" smooth to="/fotografico/#fotografico-autoadhesivo">
-                                        Fotográfico Autoadhesivo
-                                    </Link></li>
-                                    <li><Link className="nav-link" smooth to="/fotografico/#fotografico-magnetico">
-                                        Fotográfico Magnético
-                                    </Link></li>
+                                        <Link className="nav-link" to="/transfer" onClick={() => handleScrollToSection('papeles-transfer')}>
+
+                                            Transfer
+
+                                        </Link>
+                                    </li>
+                                    <li>
+                                        <Link className="nav-link" to="/fotografico" onClick={() => handleScrollToSection('fotografico-mate')}>
+
+                                            Fotográfico Mate
+
+                                        </Link>
+                                    </li>
+                                    <li>
+                                        <Link className="nav-link" to="/fotografico" onClick={() => handleScrollToSection('fotografico-glossy')}>
+
+                                            Fotográfico Glossy
+
+                                        </Link>
+                                    </li>
+                                    <li>
+                                        <Link className="nav-link" to="/fotografico" onClick={() => handleScrollToSection('fotografico-resinado')}>
+
+                                            Fotográfico Resinado
+
+                                        </Link>
+                                    </li>
+                                    <li>
+                                        <Link className="nav-link" to="/fotografico" onClick={() => handleScrollToSection('fotografico-autoadhesivo')}>
+
+                                            Fotográfico Autoadhesivo
+
+                                        </Link>
+                                    </li>
+                                    <li>
+                                        <Link className="nav-link" to="/fotografico" onClick={() => handleScrollToSection('fotografico-magnetico')}>
+
+                                            Fotográfico Magnético
+
+                                        </Link>
+                                    </li>
                                 </ul>
                             </li>
+
                             <li className="nav-item dropdown">
                                 <a className="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                                     Tintas
                                 </a>
                                 <ul className="dropdown-menu">
-                                    <li> <Link className="nav-link" smooth to="/sublimacion/#tintas-sublimacion">
-                                        Sublimación
-                                    </Link></li>
-                                    <li> <Link className="nav-link" smooth to="/dtf/#tinta-dtf">
-                                        DTF
-                                    </Link></li>
-                                    <li><Link className="nav-link" smooth to="/fotografico">
-                                        Ink Jet
-                                    </Link></li>
+                                    <li>
+
+                                        <Link className="nav-link" to="/sublimacion" onClick={() => handleScrollToSection('tintas-sublimacion')}>
+
+                                            Sublimación
+
+                                        </Link>
+                                    </li>
+                                    <li>
+
+                                        <Link className="nav-link" to="/dtf" onClick={() => handleScrollToSection('tintas-dtf')}>
+
+                                            DTF
+
+                                        </Link>
+                                    </li>
+                                    <li>
+
+                                        <Link className="nav-link" to="/fotografico" onClick={() => handleScrollToSection('tintas-fotografico')}>
+
+                                            Ink Jet
+
+                                        </Link>
+                                    </li>
                                 </ul>
                             </li>
                             <li className="nav-item dropdown">
@@ -134,18 +177,29 @@ const Navbar = () => {
                                     Otros
                                 </a>
                                 <ul className="dropdown-menu">
-                                    <li> <Link className="nav-link" smooth to="/dtf/#polvo-dtf">
-                                        Polvo DTF
-                                    </Link></li>
-                                    <li> <Link className="nav-link" smooth to="/dtf/#film-dtf">
-                                        Film DTF
-                                    </Link></li>
+                                    <li>
+
+                                        <Link className="nav-link" to="/dtf" onClick={() => handleScrollToSection('film-dtf')}>
+
+                                            Film DTF
+
+                                        </Link>
+                                    </li>
+                                    <li>
+
+                                        <Link className="nav-link" to="/dtf" onClick={() => handleScrollToSection('polvo-dtf')}>
+
+                                            Polvo DTF
+
+                                        </Link>
+                                    </li>
+
                                 </ul>
                             </li>
                         </ul>
                     </div>
-                </nav>
-            </nav>
+                </nav >
+            </nav >
 
         </>
     )

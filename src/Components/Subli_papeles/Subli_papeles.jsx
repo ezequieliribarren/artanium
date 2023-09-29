@@ -6,9 +6,8 @@ import Slider_products from '../Slider_products/Slider_products';
 const Subli_papeles = () => {
   return (
     <section id='papeles-sublimacion'>
-      {/* <a id="our-results"></a> */}
       <div className="row">
-        <div className="col-lg-6 detail">
+        <div className="col-lg-6 detail" >
           <h2>Papel para Sublimación</h2>
           <h3>Transferencia óptima / alta definición.</h3>
           <p>En Artanium ofrecemos una línea variada de papeles específicos para sublimación, posibilitando un resultado óptimo ya sea en impresiones o en equipos de gran formato. </p>

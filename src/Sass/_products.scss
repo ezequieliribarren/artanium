@@ -3,8 +3,9 @@
 #fotografico-glossy,
 #fotografico-magnetico,
 #fotografico-resinado,
-#fotografico-autoadhesivo {
-    scroll-margin-top: 14em !important;
+#fotografico-autoadhesivo,
+#papeles-transfer{
+    scroll-margin-top: 18em !important;
 
     .contenedor{
         display: flex;
@@ -25,7 +26,9 @@
         }
     }
 }
-
+.row{
+    width: 100%;
+}
 #tintas-sublimacion,
 #papeles-sublimacion,
 #subli-protector,
@@ -118,6 +121,7 @@
     }
 
     .products {
+        width: 100%;
 
         .left,
         .left2 {
