@@ -9,7 +9,7 @@ const Subli_protector = () => {
           <div className="col-lg-6 left">
             <img className='img-fluid' src="images/subli/plotter/protector.png" alt="Papel Protector para calandra" />
           </div>
-          <div className='col-lg-6'>
+          <div className='col-lg-6 right'>
             <div className='products-subtitles'>
               <h4 className='h4-protector'>Papel protector de planchas y prensa de calor rotativa para la transferencia en sublimación.</h4>
             </div>

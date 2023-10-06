@@ -12,9 +12,9 @@ const Fotografico_mate = () => {
     
 
       <div className="flex-center">
-        <div className="row">
-             <div className='col-md-6'><img className='img-fluid' src="images/fotografico/mate1.png" alt="Papel Fotográfico mate" /></div>
-        <div className='col-md-6'> <img className='img-fluid'  src="images/fotografico/mate2.png" alt="Papel Fotográfico mate" /></div>
+        <div className="row p-5 products-mate">
+             <div className='col-lg-6'><img className='img-fluid' src="images/fotografico/mate1.png" alt="Papel Fotográfico mate" /></div>
+        <div className='col-lg-6'> <img className='img-fluid'  src="images/fotografico/mate2.png" alt="Papel Fotográfico mate" /></div>
         </div>
       </div>
      <Slider_products  img1="images/fotografico/ej1.png" img2="images/fotografico/ej2.png" img3="images/fotografico/ej3.png" img4="images/fotografico/ej4.png" img5="images/fotografico/ej5.png" ideales={<h4> <strong >Ideales para:</strong> <br /> candybar, folletos, presentaciones, scrapbooking, etc.</h4>} />

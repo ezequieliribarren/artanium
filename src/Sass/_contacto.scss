@@ -2,6 +2,24 @@
     margin-bottom: 4rem;
     scroll-margin-top: 14em;
 
+label{
+    color: #37A2CE;
+    font-family: titilium-bold;
+    font-size: 1.8rem;
+}
+
+select{
+    color: gray;
+    padding-left: 10px;
+    border: none;
+    border-radius: 50px;
+    background: #EDF6FB;
+    height: 5.4rem;
+    width: 70rem;
+    margin: 0.5rem 0;
+    font-size: 1.4rem;
+    border: none;
+}
     .contacto {
         margin-top: 5rem;
         display: flex;
@@ -10,7 +28,7 @@
         .img-contacto {
             display: flex;
             justify-content: center;
-            align-items: center;
+            align-items: start;
             width: 70rem;
 
             img {
@@ -80,6 +98,31 @@
             margin: 2rem 0;
         }
 
+        .flex-check {
+            display: flex;
+            align-items: center;
+        }
+
+
+        .label-check {
+            display: flex;
+            align-items: center;
+            justify-content: start;
+            margin: 0 2rem;
+
+            .title-check {
+                color: black;
+                font-size: 1.5rem;
+                width: 12rem;
+            }
+
+            input {
+                width: 2rem !important;
+                margin: 0 !important;
+                padding: 0 !important;
+            }
+        }
+
         .label-form {
             display: flex;
             flex-direction: column;
@@ -92,6 +135,12 @@
                 margin-right: 2rem;
             }
 
+        }
+
+        .label-form-2 {
+            input {
+                width: 22.5rem;
+            }
         }
     }
 }
@@ -126,14 +175,15 @@
             width: 100%;
         }
 
-        .img-contacto{
-            img{
+        .img-contacto {
+            img {
                 display: none !important;
             }
         }
 
 
         .formulario {
+
             input,
             select {
                 height: 5.4rem;
@@ -158,4 +208,12 @@
         }
 
     }
+}
+
+@media (max-width: 370px) {
+.title-check {
+    color: black;
+    font-size: 1.5rem;
+    width: 9rem !important;
+}
 }

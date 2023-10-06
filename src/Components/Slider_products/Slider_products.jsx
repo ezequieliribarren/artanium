@@ -5,7 +5,7 @@ import { Carousel } from 'react-responsive-carousel';
 const SliderProducts = ({ img1, img2, img3, img4, img5, ideales }) => {
     return (
         <div className="container-fluid">
-            <div className='row slider p-5'>
+            <div className='row slider p-4'>
                 <div className="col-12 col-md-2">
                     <div className='title-slider'>
                         <h4> {ideales}</h4>

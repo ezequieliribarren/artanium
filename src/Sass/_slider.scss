@@ -1,6 +1,5 @@
 .slider{
     display: flex;
-    margin-top: 0.5rem !important;
 }
 
 .slider-fixed{
@@ -14,7 +13,7 @@
     display: flex;
     justify-content: center;
     h4{
-        text-align: left;
+        text-align: right;
         color: #37A2CE;
     }
 }
@@ -46,6 +45,15 @@ img{
     .slider-2{
         display: inherit !important;
     }
+}
+
+@media (max-width: 768px) {
+.title-slider{
+    h4{
+            text-align: center;
+    }
+
+}
 }
 
 @media (max-width: 690px) {

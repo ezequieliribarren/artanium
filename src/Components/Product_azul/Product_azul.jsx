@@ -3,11 +3,12 @@ import Ul_azul from '../Ul_azul/Ul_azul'
 import Slider_products from '../Slider_products/Slider_products'
 
 
-const Product_azul = ({ a1, a2, a3, b1, b2, b3, c1, c2, c3, img, clase, imgtop1, imgtop2, imgtop3, imgtop4, ideales, slider1, slider2, slider3, slider4, slider5 }) => {
+const Product_azul = ({ title, a1, a2, a3, b1, b2, b3, c1, c2, c3, img, clase, imgtop1, imgtop2, imgtop3, imgtop4, ideales, slider1, slider2, slider3, slider4, slider5 }) => {
     return (
         <div className="container-fluid">
             <div className='row product-azul'>
-                <div className="col-lg-6">
+                <div className="col-lg-6 left">
+                    <h3>{title}</h3>
                     <img className='img-fluid' src={img} alt="" />
                 </div>
                 <div className="col-lg-6">

@@ -10,7 +10,7 @@ const Subli_papeles = () => {
         <div className="col-lg-6 detail" >
           <h2>Papel para Sublimación</h2>
           <h3>Transferencia óptima / alta definición.</h3>
-          <p>En Artanium ofrecemos una línea variada de papeles específicos para sublimación, posibilitando un resultado óptimo ya sea en impresiones o en equipos de gran formato. </p>
+          <p>En Artanium ofrecemos una línea variada de papeles específicos para sublimación, posibilitando un resultado óptimo ya sea en impresoras standard o en equipos de gran formato. </p>
         </div>
         <div className="col-lg-6 description">
           <ul className='caracteristicas'>

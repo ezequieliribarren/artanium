@@ -27,11 +27,9 @@ const Navbar = () => {
         });
     };
 
-
-
     return (
         <>
-            <nav className="navbar navbar-expand-lg bg-light navbars">
+            <nav className="navbar navbar-expand-xl bg-light navbars">
                 <div className="container-fluid nav1">
                     <a className="navbar-brand px-5" href="#"><img className="logo-navbar" src="/images/logo.png" alt="" /></a>
                     <button

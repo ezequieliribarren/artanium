@@ -4,31 +4,40 @@
 #fotografico-magnetico,
 #fotografico-resinado,
 #fotografico-autoadhesivo,
-#papeles-transfer{
+#papeles-transfer {
     scroll-margin-top: 18em !important;
 
-    .contenedor{
+    .contenedor {
         display: flex;
         justify-content: center;
         align-items: center;
 
-        .col-lg-6{
+        .col-lg-6 {
             display: flex;
             justify-content: center;
         }
 
-        .img-fluid{
+        .img-fluid {
             width: 650px;
         }
 
-        .right{
+        .right {
             margin-top: 7.5rem !important;
+
         }
     }
 }
-.row{
+
+.row {
     width: 100%;
 }
+
+#papeles-sublimacion {
+    .contenedor {
+        margin: 4rem 0;
+    }
+}
+
 #tintas-sublimacion,
 #papeles-sublimacion,
 #subli-protector,
@@ -65,7 +74,8 @@
     .description {
         padding: 0;
 
-        .caracteristicas, .caracteristicas-resinado {
+        .caracteristicas,
+        .caracteristicas-resinado {
             display: flex;
             align-items: center;
             background-color: #B5DBEC;
@@ -80,36 +90,43 @@
                 margin: 1.3rem;
                 font-size: 1.7rem;
             }
-        }  
-        
-        .caracteristicas-resinado {
-        li {
-            font-size: 1.45rem;
-            margin: 0 0.8rem;
         }
-    }
+
+        .caracteristicas-resinado {
+            li {
+                font-size: 1.45rem;
+                margin: 0 0.8rem;
+            }
+        }
 
     }
 
-  
+
     .icons {
         display: flex;
         align-items: center;
         flex-direction: column;
         justify-content: center;
-        margin-top: 4rem;
+        margin-top: 2rem;
+
+        .line {
+            margin: 0 !important;
+        }
 
         ul {
             display: flex;
             justify-content: center;
             align-items: center;
-            margin: 3rem;
+            padding: 0 !important;
+            margin: 0 !important;
+
 
             li {
                 display: flex;
                 align-items: center;
                 width: 16rem;
-                margin-top: 1rem;
+                margin-top: 2rem;
+                margin-bottom: 2rem;
             }
 
             h4 {
@@ -129,15 +146,11 @@
             flex-direction: column;
             justify-content: center;
             align-items: center;
-            margin-top: 2rem;
 
-            img {
-                max-width: 85%;
-            }
         }
 
         .left2 {
-            margin-top: 5rem;
+            margin-top: 3rem;
         }
 
         .right {
@@ -146,6 +159,10 @@
             justify-content: center;
             align-items: left;
             margin-top: 3.5rem;
+
+            .line {
+                margin: 0.2rem !important;
+            }
 
             h3 {
                 margin-bottom: 1rem;
@@ -159,7 +176,6 @@
             display: flex;
             align-items: center;
             justify-content: left;
-            margin-bottom: 1rem;
 
             div {
                 display: flex;
@@ -203,7 +219,8 @@
                 }
             }
 
-            .products-b, .products-b-plotter {
+            .products-b,
+            .products-b-plotter {
                 display: flex;
                 align-items: start;
                 margin: 1.5rem 0.4rem;
@@ -217,7 +234,7 @@
 
             }
 
-            .products-b-plotter{
+            .products-b-plotter {
                 height: 8rem !important;
             }
 
@@ -234,12 +251,39 @@
 }
 
 
-
 // PLOTTER
+#subli-plotter {
+    margin-top: 2rem;
+
+    .row {
+        margin: 3rem 0;
+    }
+}
+
 .plotter-banner {
     display: flex;
     justify-content: end;
     padding-left: 7%;
+}
+
+// PROTECTOR
+
+#subli-protector {
+    margin-top: 2rem;
+
+    .right {
+        margin-top: 4rem !important;
+    }
+
+    .slider {
+        margin-top: 1rem;
+    }
+}
+
+.h4-protector {
+    color: #37A2CE !important;
+    font-family: titilium-bold;
+    font-size: 1.6rem !important;
 }
 
 // LINE
@@ -255,19 +299,36 @@
     width: 100%;
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-between;
     margin-bottom: 1rem;
-    img{
-        margin: 0 1rem;
+    padding: 0 1rem;
+
+    img {
+        margin: 0 0.5rem;
+        width: 8rem;
+    }
+
+    .img-ycmn {
+        width: 15rem;
     }
 }
 
 .cols-transfer {
-    margin: 5rem 0;
+    margin: 3.5rem 0;
 
+    .line {
+        margin: 0 !important;
+    }
 
     .right {
         margin-top: 7rem;
+
+        .ul-products {
+            .products-b {
+                height: 7rem !important;
+            }
+        }
+
     }
 
     .col-lg-6 {
@@ -282,7 +343,8 @@
             margin-bottom: 1rem;
 
             img {
-                margin-right: 1rem;
+                width: 5.5rem;
+                margin-right: 0.5rem;
             }
 
             h4 {
@@ -293,19 +355,43 @@
 
 }
 
+// FOTOGRAFICO MATE
+
+.products-mate {
+    .col-lg-6 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+}
 
 // PRODUCT AZUL - UL-AZUL - UL-PRODUCTS
 
 .product-azul {
     display: flex;
     align-items: center;
-    margin: 6rem 0;
+    margin: 8rem 0 !important;
 
     .col-lg-6 {
         display: flex;
         flex-direction: column;
         align-items: center;
     }
+
+    .left {
+        padding-left: 4%;
+    }
+
+    h3 {
+        font-family: titilium-bold;
+        font-size: 2.5rem;
+        margin-bottom: 1rem;
+    }
+}
+
+.point-ul-azul {
+    padding-right: 0.5rem !important;
 }
 
 .ul-azul {
@@ -314,9 +400,7 @@
     border-top-left-radius: 30px;
     border-bottom-left-radius: 30px;
 
-    .point-ul-azul {
-        margin-right: 0.5rem;
-    }
+
 
     li {
         color: black;
@@ -344,7 +428,7 @@
         display: flex;
         align-items: start;
         margin: 1rem 0.5rem;
-        max-width: 24rem;
+        max-width: 20rem;
 
         h4 {
             color: #37A2CE;
@@ -357,7 +441,7 @@
         align-items: start;
         margin: 1.5rem 0.5rem;
         height: 8rem;
-        max-width: 24rem;
+        max-width: 20rem;
 
         p {
             color: #37A2CE;
@@ -366,20 +450,37 @@
 
     }
 
-    .products-c, .products-c-carga {
+    .products-c,
+    .products-c-carga {
         display: flex;
         justify-content: start;
         align-items: center;
         margin: 1.5rem 0.5rem;
-        max-width: 24rem;
+        max-width: 20rem;
     }
 
 }
 
-// PROTECTOR
-.h4-protector {
-    color: #37A2CE !important;
-    font-family: titilium-bold;
+
+
+@media (max-width : 1350px) {
+    .products-subtitles {
+        img {
+            width: 5.5rem;
+        }
+    }
+
+    .cols-transfer {
+        .products-subtitles {
+            img {
+                width: 5rem !important;
+            }
+
+            h4 {
+                font-size: 1.6rem;
+            }
+        }
+    }
 }
 
 @media (max-width : 1278px) {
@@ -460,6 +561,13 @@
         .left,
         .left2 {
             margin-bottom: 1rem;
+            padding: 0 7rem !important;
+            margin-top: 4rem;
+        }
+
+        .right {
+            padding: 0 7rem !important;
+            margin-top: 0;
         }
 
         .ul-azul,
@@ -477,16 +585,22 @@
 
     .img-top-transfer {
         margin-top: 3rem;
+        justify-content: space-around;
+
     }
 
-    .cols-transfer{
-        .right{
+
+    .cols-transfer {
+        .right {
             margin-top: 1.5rem !important;
         }
-        .col-lg-6{   align-items: center;
-            .img-fluid{
+
+        .col-lg-6 {
+            align-items: center;
+
+            .img-fluid {
                 width: 700px;
-             
+
             }
         }
     }
@@ -498,18 +612,18 @@
             font-size: 1.5rem;
         }
     }
-  
+
 }
 
-@media (max-width: 768px){
-    #fotografico-glossy{
-        .flex-column-center{
-        .img-fluid{
-                  width: 550px !important;
-      }
-  }
+@media (max-width: 768px) {
+    #fotografico-glossy {
+        .flex-column-center {
+            .img-fluid {
+                width: 550px !important;
+            }
+        }
     }
-    
+
 }
 
 @media (max-width: 720px) {
@@ -523,17 +637,30 @@
         }
     }
 
-        .caracteristicas-resinado {
-            li {
-                font-size: 1.3rem !important;
-                margin: 0 0.6rem !important;
-            }
-            
+    .caracteristicas-resinado {
+        li {
+            font-size: 1.3rem !important;
+            margin: 0 0.6rem !important;
         }
+
     }
+}
 
 
 @media (max-width : 580px) {
+    .products {
+
+        .left,
+        .left2 {
+            margin-bottom: 1rem;
+            padding: 0 2rem !important;
+        }
+
+        .right {
+            padding: 0 2rem !important;
+        }
+    }
+
     .caracteristicas {
         li {
             font-size: 1.4rem !important;
@@ -545,8 +672,9 @@
             font-size: 1.15rem !important;
             margin: 0 0.4rem !important;
         }
-        
+
     }
+
     .products,
     .product-azul {
 
@@ -566,6 +694,7 @@
                     font-size: 1.4rem !important;
                 }
             }
+
             .products-c-carga {
                 img {
                     width: 12rem !important;
@@ -608,12 +737,12 @@
     }
 
     .caracteristicas-resinado {
-  
 
-        .none-resinado{
+
+        .none-resinado {
             display: none;
         }
-        
+
     }
 
     .products-subtitles {
@@ -643,7 +772,8 @@
                 }
             }
 
-            .products-b,   .products-b-plotter {
+            .products-b,
+            .products-b-plotter {
                 p {
                     font-size: 1.2rem !important;
                 }
@@ -651,12 +781,12 @@
                 height: 7rem !important;
             }
 
-            .products-c{
-                img{
+            .products-c {
+                img {
                     width: 3.5rem !important;
                 }
             }
-            
+
         }
     }
 }
@@ -677,6 +807,7 @@
             margin: 0 0.3rem !important;
         }
     }
+
     .products,
     .product-azul {
 

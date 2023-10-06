@@ -6,14 +6,14 @@ const Transfer_products = () => {
   return (
     <>
       <section id='papeles-transfer' >
-        <TopProducts title="Papel Transfer Inkjet" subtitle="Transferencia óptima / alta definición." p="En Artanium, presentamos una gama diversa de papeles transfer diseñados tanto para aplicaciones en textiles claros como oscuros." li1={<li><strong>Calidad<br /> Fotográfica</strong></li>} li2={<li><strong>Alta adherencia<br />a la tela.</strong></li>} li3={<li><strong>Terminación<br />suave y elástica.</strong></li>} li4={<li><strong>Resistente<br />a la decoloración.</strong></li>} clase1="col-lg-6 detail" clase2="col-lg-6 description" caracteristicas="caracteristicas" />
+        <TopProducts title="Papel Transfer Inkjet" subtitle="Transferencia óptima / alta definición." p="En Artanium, ponemos a tu alcance la mejor linea de papeles transfer del mercado. Para que con tu impresora puedas acceder al mundo de la personalización de textiles." li1={<li><strong>Calidad<br /> Fotográfica</strong></li>} li2={<li><strong>Alta adherencia<br />a la tela.</strong></li>} li3={<li><strong>Terminación<br />suave y elástica.</strong></li>} li4={<li><strong>Resistente<br />a la decoloración.</strong></li>} clase1="col-lg-6 detail" clase2="col-lg-6 description" caracteristicas="caracteristicas" />
 
       </section>
       <section id='papeles-transfer'>
         {transfers.map((transfer) => (
           <div className="row products">
             <div className="row cols-transfer">
-              <div className="col-lg-6 ">
+              <div className="col-lg-6 left">
                 <img className='img-fluid' src={transfer.img} alt="Transfer" />
               </div>
               <div className='col-lg-6 right'>

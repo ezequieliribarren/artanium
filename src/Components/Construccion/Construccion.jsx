@@ -6,7 +6,7 @@ const Construccion = () => {
         <section id='construccion'>
             <div className="container construccion">
                 <div>
-                    <img src="images/construccion.png" alt="En - construccion" />
+                    <img className='img-fluid' src="images/construccion.png" alt="En - construccion" />
                 </div>
                 <div>
                     <h2>Estamos trabajando para crear esta página</h2>

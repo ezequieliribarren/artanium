@@ -8,11 +8,13 @@ import Buscador from '../Buscador/Buscador';
 const Productos = () => {
   return (
     <section id='productos'>
-      <div className='buscador'>
-        <Buscador />  
-      </div>
-    <h2 className='container'>Nuestros Productos</h2>
+      <div className='buscador'>  
+      <h2 className='container'>Nuestros Productos</h2>
+        <Buscador />   
+      
 
+      </div>
+   
       <div className='row cards-products'>
         {products.map((product) => (
 
@@ -23,7 +25,7 @@ const Productos = () => {
                 <img className='img-card' src={product.img} alt="Producto" />
               </div>
 
-              <CardContent>
+              <CardContent className="card-content">
                 <p>{product.description}</p>
               </CardContent>
               <Link to={product.link} className='button-products'>

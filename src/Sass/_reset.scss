@@ -130,13 +130,19 @@ html {
 // BUSCADOR
 .buscador {
     position: relative;
-    /* Asegura que los resultados sean relativos a este contenedor */
     width: 100%;
     display: flex;
     justify-content: right;
-    padding-right: 1%;
     margin-top: 5rem;
+    padding-right: 4%;
+
+    h2{
+        padding-left: 6%;
+    }
+
 }
+
+
 
 input {
     width: 250px;
@@ -144,6 +150,7 @@ input {
     flex-shrink: 0;
     border-radius: 20px;
     border: 2px solid #B9B9B9;
+
 }
 
 input::placeholder {
@@ -157,14 +164,11 @@ input::placeholder {
     flex-direction: column;
     align-items: end;
     position: absolute;
-    /* Coloca los resultados en posición absoluta */
     top: 100%;
-    /* Coloca los resultados justo debajo del input */
     left: 0;
     right: 0;
     background: linear-gradient(to left, #EDF6FB, #ffffff00, #ffffff00);
     z-index: 1000;
-    /* Un valor alto para superponerse a otros elementos */
 }
 
 .enlace-buscador {
@@ -206,7 +210,19 @@ input::placeholder {
         display: inherit;
     }
 }
+@media (max-width : 615px) {
+.buscador{
+    flex-direction: column;
+    align-items: center;
 
+
+    h2{
+        text-align: center;
+        padding: 0;
+        padding-bottom: 1rem;
+    }
+}
+}
 @media (max-width : 570px) {
     h2 {
         font-size: 2.8rem !important;
@@ -220,7 +236,12 @@ input::placeholder {
         font-size: 1.5rem !important;
     }
 }
-
+@media (max-width : 490px) {
+    .construccion {
+        padding-top: 17rem;
+    
+    }
+}
 @media (max-width : 460px) {
     h2 {
         font-size: 2.6rem !important;

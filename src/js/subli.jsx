@@ -39,15 +39,15 @@ export const papeles = [
     {
         id: 2,
         titulo: "Instant Dry",
-        img: "/images/subli/papeles/img1.png",
+        img: "/images/subli/papeles/img2.png",
         imgtop: "/images/subli/papeles/imgtop.png",
         subtitulo: "Para uso en impresoras inkjet con tinta de sublimación.",
         a1: "Dorso impreso",
         a2: "No se marca",
-        a3: "Secado rápido",
+        a3: "Secado Instantáneo",
         b1: "para identificar fácilmente el lado blanco imprimible.",
         b2: "no deja “camino de hormiga” en tus impresiones.",
-        b3: "minimiza el riesgo de manchas o borrones y da mayor eficiencia.",
+        b3: "logrando mantener la calidad del papel intacta",
         c1: "/images/subli/papeles/c1.png",
         c2: "/images/subli/papeles/c2.1.png",
         c3: "/images/subli/papeles/c3.png",
@@ -80,7 +80,7 @@ export const papeles = [
         b1: "logrando una óptima definición en tus trabajos de sublimación.",
         b2: "soporta grandes cargas de tinta, permite reproducir negros profundos y colores vivos.",
         b3: "Los tamaños del rollo son compatibles con ambos formatos de impresoras.",
-        c1: "/images/subli/papeles/c1.png",
+        c1: "/images/subli/papeles/c2.png",
         c2: "/images/subli/papeles/c2.2.png",
         c3: "/images/subli/papeles/c3.2.png",
         d1: "/images/subli/papeles/rollo1.png",
@@ -92,7 +92,7 @@ export const papeles = [
     {
         id: 4,
         titulo: "Rollo Instant Dry",
-        img: "/images/subli/papeles/img3.png",
+        img: "/images/subli/papeles/img4.png",
         imgtop: "/images/subli/papeles/imgtop1.png",
         subtitulo: "Para uso en impresoras inkjet con tinta de sublimación.",
         subtitulo1: (
@@ -114,7 +114,7 @@ export const papeles = [
         b1: "logrando una óptima definición en tus trabajos de sublimación.",
         b2: "soporta grandes cargas de tinta, permite reproducir negros profundos y colores vivos.",
         b3: "no deja “camino de hormiga”, ni se dobla con la humedad.",
-        c1: "/images/subli/papeles/c1.png",
+        c1: "/images/subli/papeles/c2.png",
         c2: "/images/subli/papeles/c2.2.png",
         c3: "/images/subli/papeles/c2.1.png",
         d1: "/images/subli/papeles/rolloi1.png",
@@ -193,7 +193,7 @@ export const plotters = [
         subtitulo2: (
             <div className="flex-center">
                 <h4>
-                    Buje interno: 3”
+                    Buje interno: 2”
 
                 </h4><img className="buje" src="images/subli/papeles/buje.png" alt="Buje" />
             </div>
@@ -226,7 +226,7 @@ export const plotters = [
         ),
         subtitulo2: (
             <div className="flex-center"><h4>
-                Buje interno: 3”
+                Buje interno: 2”
             </h4><img className="buje" src="images/subli/papeles/buje.png" alt="Buje" />
             </div>
         ),

@@ -46,7 +46,7 @@ const Footer = () => {
           <div className="col-6 col-sm-3 col-md-2">
             <div className='links'>
               <h4>Comunidad</h4>
-              <Link className="nav-link" to="/en-construccion">
+              <Link to="/en-construccion">
                 Blog
               </Link>
             </div>

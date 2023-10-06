@@ -16,7 +16,6 @@ const Root = () => {
     <>
       <Layout>
         <Header />
-
         <Productos />
         <Nosotros />
         <Distribuidores />
