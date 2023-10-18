@@ -1,4 +1,4 @@
-# Proyecto Artanium - Sitio Web de Venta Mayorista de Insumos Gráficos
+# Proyecto Artanium - Mayorista de Insumos Gráficos
 
 ![logo](https://github.com/ezequieliribarren/artanium/assets/105462718/055d6e86-b42a-4dd7-a276-f5e98ebec062)
 
